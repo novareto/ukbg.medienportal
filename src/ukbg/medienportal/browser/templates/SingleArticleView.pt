@@ -21,7 +21,7 @@
 
 
   <metal:block fill-slot="content-core">
-    This is statix Text on #6 template
+    This is statix Text on SingleArticleView template
   </metal:block>
 
 </html>

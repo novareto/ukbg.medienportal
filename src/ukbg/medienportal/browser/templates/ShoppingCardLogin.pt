@@ -21,7 +21,7 @@
 
 
   <metal:block fill-slot="content-core">
-    This is statix Text on #4template
+    This is statix Text on ShoppingCardLogin template
   </metal:block>
 
 </html>

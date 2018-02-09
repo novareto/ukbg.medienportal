@@ -21,7 +21,7 @@
 
 
   <metal:block fill-slot="content-core">
-    This is statix Text on #7 template
+    This is statix Text on FilterSearch template
   </metal:block>
 
 </html>

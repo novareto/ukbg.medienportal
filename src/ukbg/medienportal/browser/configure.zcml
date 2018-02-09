@@ -19,45 +19,45 @@
       />
 
   <browser:page
-      name="medien_view1"
+      name="SearchResultsView"
       for="*"
-      template="templates/medien1.pt"
+      template="templates/SearchResultsView.pt"
       permission="zope2.View"
       />
   <browser:page
-      name="medien_view2"
+      name="FilterSearch"
       for="*"
-      template="templates/medien2.pt"
+      template="templates/FilterSearch.pt"
       permission="zope2.View"
       />
   <browser:page
-      name="medien_view3"
+      name="SingleArticleView"
       for="*"
-      template="templates/medien3.pt"
+      template="templates/SingleArticleView.pt"
       permission="zope2.View"
       />
   <browser:page
-      name="medien_view4"
+      name="ShoppingCard"
       for="*"
-      template="templates/medien4.pt"
+      template="templates/ShoppingCard.pt"
       permission="zope2.View"
       />
   <browser:page
-      name="medien_view5"
+      name="ShoppingCardLogin"
       for="*"
-      template="templates/medien5.pt"
+      template="templates/ShoppingCardLogin.pt"
       permission="zope2.View"
       />
   <browser:page
-      name="medien_view6"
+      name="ShoppingCardCheck"
       for="*"
-      template="templates/medien6.pt"
+      template="templates/ShoppingCardCheck.pt"
       permission="zope2.View"
       />
   <browser:page
-      name="medien_view7"
+      name="ShoppingCardConfirmation"
       for="*"
-      template="templates/medien7.pt"
+      template="templates/ShoppingCardConfirmation.pt"
       permission="zope2.View"
       />
 
