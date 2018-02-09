@@ -18,4 +18,47 @@
       directory="static"
       />
 
+  <browser:page
+      name="medien_view1"
+      for="*"
+      template="templates/medien1.pt"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="medien_view2"
+      for="*"
+      template="templates/medien2.pt"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="medien_view3"
+      for="*"
+      template="templates/medien3.pt"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="medien_view4"
+      for="*"
+      template="templates/medien4.pt"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="medien_view5"
+      for="*"
+      template="templates/medien5.pt"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="medien_view6"
+      for="*"
+      template="templates/medien6.pt"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="medien_view7"
+      for="*"
+      template="templates/medien7.pt"
+      permission="zope2.View"
+      />
+
 </configure>
