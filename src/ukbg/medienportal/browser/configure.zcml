@@ -18,4 +18,47 @@
       directory="static"
       />
 
+  <browser:page
+      name="SearchResultsView"
+      for="*"
+      template="templates/SearchResultsView.pt"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="FilterSearch"
+      for="*"
+      template="templates/FilterSearch.pt"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="SingleArticleView"
+      for="*"
+      template="templates/SingleArticleView.pt"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="ShoppingCard"
+      for="*"
+      template="templates/ShoppingCard.pt"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="ShoppingCardLogin"
+      for="*"
+      template="templates/ShoppingCardLogin.pt"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="ShoppingCardCheck"
+      for="*"
+      template="templates/ShoppingCardCheck.pt"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="ShoppingCardConfirmation"
+      for="*"
+      template="templates/ShoppingCardConfirmation.pt"
+      permission="zope2.View"
+      />
+
 </configure>
