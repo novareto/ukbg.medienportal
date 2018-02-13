@@ -8,13 +8,13 @@
   <metal:cssslot fill-slot="style_slot">
       <link rel="stylesheet" type="text/css"
         tal:define="navroot context/@@plone_portal_state/navigation_root_url"
-        tal:attributes="href string:${navroot}/++plone++ukbg.medienportal/css/medien.css"
+        tal:attributes="href string:${navroot}/++resource++ukbg.medienportal/css/medien.css"
         />
   </metal:cssslot>
 
   <metal:javascriptslot fill-slot="javascript_head_slot"
       tal:define="navroot context/@@plone_portal_state/navigation_root_url">
-    <script tal:attributes="src string:${navroot}/++plone++ukbg.medienportal/js/medien.js"></script>
+    <script tal:attributes="src string:${navroot}/++resource++ukbg.medienportal/js/medien.js"></script>
   </metal:javascriptslot>
 
 </head>
