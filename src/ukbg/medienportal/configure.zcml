@@ -35,7 +35,6 @@
       post_handler=".setuphandlers.uninstall"
       />
 
-
   <utility
       factory=".setuphandlers.HiddenProfiles"
       name="ukbg.medienportal-hiddenprofiles" />
