@@ -21,7 +21,22 @@
 
 
   <metal:block fill-slot="content-core">
-    This is statix Text on FilterSearch template
+<div class="mp-wrapper">Mein Test
+    <div class="row">
+	<div class="col-lg-12">
+		<div class="input-group">
+			<input type="text" class="form-control mp-search-input" placeholder="Geben Sie einen Suchbegriff ein...">
+			<span class="input-group-btn">
+				<button class="mp-btn mp-btn-default mp-search" type="button">
+				<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</button>
+			</span>
+		</div>
+	</div>
+    </div>
+
+</div>
+
   </metal:block>
 
 </html>
