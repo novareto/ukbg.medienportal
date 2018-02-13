@@ -12,9 +12,8 @@
       />
 
   <!-- Publish static files -->
-  <plone:static
+  <browser:resourceDirectory
       name="ukbg.medienportal"
-      type="plone"
       directory="static"
       />
 
