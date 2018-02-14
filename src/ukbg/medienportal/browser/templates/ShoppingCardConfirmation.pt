@@ -21,7 +21,18 @@
 
 
   <metal:block fill-slot="content-core">
-    This is statix Text on ShoppingCardConfirmation template
+	<div class="mp-wrapper">
+		<div class="row">
+			<h4 class="mp-headline">
+				Vielen Dank für Ihre Bestellung!
+			</h4>
+		</div>
+		<div class="row mp-new-section">
+			<p>Wir werden Ihren Auftrag schnellstmöglich bearbeiten.<br>
+			In Kürze erhalten Sie eine Bestellbestätigung per E-Mail, der Sie die Auftragsnummer und weitere wichtige Informationen entnehmen können.</p>
+			<p>Bei Fragen können Sie uns kontaktieren unter: <a href="mailto:info@bgetem.de">info@bgetem.de</a>
+		</div>
+	</div>    
   </metal:block>
 
 </html>
