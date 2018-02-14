@@ -21,7 +21,115 @@
 
 
   <metal:block fill-slot="content-core">
-    This is statix Text on  ShoppingCard template
+	<div class="mp-wrapper">
+
+		<div class="row">
+			<table class="table table-bordered table-striped">
+                                   <thead>
+                                       <tr>
+                                           <th class="checkbox-warenkorb"></th>
+                                           <th>Artikel</th>
+                                           <th>Menge</th>
+                                           <th>Preis für Mitglieder</th>
+                                           <th>Preis für Nicht-Mitglieder</th>
+                                       </tr>
+                                   </thead>
+                                   <tbody>
+                                        <tr>
+                                            <td class="checkbox-warenkorb"><input type="checkbox"></td>
+                                            <td>
+                                                    <div class="media col-lg-9">
+                                                        <a class="col-xs-12" href="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen" target="_blank">
+                                                            <div class="artikel-bild col-xs-4 col-sm-3">
+                                                                <img class="media-object img-responsive" src="img/titelbild.jpg">
+                                                            </div>
+                                                            <div class="col-sm-9 col-xs-12">
+                                                                <p><b>Wenn Blicke töten können <br> Hände ans Steuer, Augen auf die Straße
+                                                                </b></p>
+                                                                <p style="color:#9c9c9c">P001/2017</p>
+                                                                <p class="entfernen"><em>Artikel entfernen</em>&nbsp;<span class="glyphicon glyphicon-remove-sign"></span></p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            <td class="col-sm-1 col-md-1" style="text-align: center">
+                                                <div class="input-group">
+                                                  <span class="input-group-btn">
+                                                      <button type="button" class="btn btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                          <span class="glyphicon glyphicon-minus"></span>
+                                                      </button>
+                                                  </span>
+                                                  <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="99">
+                                                  <span class="input-group-btn">
+                                                      <button type="button" class="btn btn-number" data-type="plus" data-field="quant[1]">
+                                                          <span class="glyphicon glyphicon-plus"></span>
+                                                      </button>
+                                                  </span>
+                                              </div> 
+                                            </td>
+                                            <td class="text-center">0,00€</td>
+                                            <td class="text-center" style="color:#9c9c9c">0,15€</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td class="checkbox-warenkorb"><input type="checkbox"></td>
+                                            <td>
+                                                    <div class="media col-lg-9">
+                                                        <a class="col-xs-12" href="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen" target="_blank">
+                                                            <div class="artikel-bild col-xs-12 col-sm-3">
+                                                                <img class="media-object img-responsive" src="img/titelbild_klein">
+                                                            </div>
+                                                            <div class="col-sm-9 col-xs-12">
+                                                                <p><b>"arbeit & Gesundheit": Ausgabe 6 erschienen
+                                                                </b></p>
+                                                                <p style="color:#9c9c9c">P001/2017</p>
+                                                                <p class="entfernen"><em>Artikel entfernen</em>&nbsp;<span class="glyphicon glyphicon-remove-sign"></span></p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            <td class="col-sm-1 col-md-1" style="text-align: center">
+                                                <div class="input-group">
+                                                      <span class="input-group-btn">
+                                                          <button type="button" class="btn btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                              <span class="glyphicon glyphicon-minus"></span>
+                                                          </button>
+                                                      </span>
+                                                      <input type="text" name="quant[1]" class="form-control input-number" value="15" min="1" max="99">
+                                                      <span class="input-group-btn">
+                                                          <button type="button" class="btn btn-number" data-type="plus" data-field="quant[1]">
+                                                              <span class="glyphicon glyphicon-plus"></span>
+                                                          </button>
+                                                      </span>
+                                                  </div>                                                   
+                                            </td>
+                                            <td class="text-center">1,00€</td>
+                                            <td class="text-center" style="color:#9c9c9c">3,00€</td>
+                                        </tr>
+                                       </tbody>
+                                       <tbody class="summe-tabelle-warenkorb">
+                                            <tr>
+                                                <td><input type="checkbox"></td>
+                                                <td class="checkbox-warenkorb" style="color:#9c9c9c">Alle Artikel auswählen</td>
+                                                <td class="col-sm-2">Versandkosten:</td>
+                                                <td class="col-sm-2">kostenlos</td>
+                                                <td style="color:#9c9c9c">4,10€</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="checkbox-warenkorb"></td>
+                                                <td>
+                                                    <button type="submit" class="btn btn-default">Warenkorb aktualisieren</button>
+                                                    <button type="submit" class="btn btn-default">Löschen</button>
+                                                </td>
+                                                <td><b>Summe:</b></td>
+                                                <td><b>1,00€</b></td>
+                                                <td style="color:#9c9c9c"><b>7,25€</b></td>
+                                            </tr>
+                                        </tbody>
+                                </table>
+		</div>
+
+	</div>
   </metal:block>
 
 </html>
