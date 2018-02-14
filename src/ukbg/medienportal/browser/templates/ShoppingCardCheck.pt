@@ -21,7 +21,94 @@
 
 
   <metal:block fill-slot="content-core">
-    This is statix Text on ShoppingCardCheck template
+	<div class="mp-wrapper">
+	
+		<div class="row">
+			<p>Bitte kontrollieren Sie Ihre Bestellung nocheinmal und bestätigen diese dann.</p>
+			<aside class="portlet-column col-lg-9">
+                                        <div class="portlet portletStaticText portlet-static-videos-alles-aus-einer-hand">
+
+                                           <h4 class="portletHeader">
+                                               <span class="portletTopLeft">
+                                               Artikel
+                                               </span>
+
+                                               <span class="portletTopRight number">
+                                               Preis
+                                               </span>
+
+                                           </h4>
+
+                                           <div class="list-group portletItem odd">
+                                               <ul>
+                                                    <li>
+                                                        1x&nbsp; Wenn Blicke töten können P001/2017
+                                                        <span class="overview-table">0,00€</span>
+                                                    </li>
+                                                   <hr class="media-default">
+                                                    <li>15x&nbsp; "arbeit & Gesundheit" Ausgabe 6 erschienen
+                                                        <span class="overview-table">1,00€</span>
+                                                    </li> 
+                                                   <hr class="media-default">
+                                                    <li>Versandkosten
+                                                        <span class="overview-table">0,00€</span>
+                                                    </li>
+                                               </ul>
+                                               <ul class="overview-table-total">             
+                                                    <li><b>Summe Gesamt</b>
+                                                        <span class="overview-table">1,00€</span>
+                                                    </li>                                           
+                                               </ul>
+
+                                                   <span class="portletBottomLeft"></span>
+                                                   <span class="portletBottomRight"></span>
+                                           </div>
+                                         </div>
+                	</aside>
+		</div>
+		<div class="row mp-new-section">
+			<div class="row col-lg-9">
+                                        <div class="col-lg-3 mp-portlet-column mp-register">
+                                             <h4 class="portletHeader">Lieferadresse</h4>
+                                             <p>Herr<br>
+                                             Max Mustermann<br>
+                                             Musterfirma GmbH<br>
+                                             Musterstraße 72 A<br>
+                                             62572 Musterhausen</p>
+                                         </div>
+
+                                         <div class="col-lg-3 mp-portlet-column mp-register">
+                                             <h4 class="portletHeader">Rechnungsadresse</h4>
+                                             <p>Herr<br>
+                                             Max Mustermann<br>
+                                             Musterfirma GmbH<br>
+                                             Musterstraße 72 A<br>
+                                             62572 Musterhausen</p>
+                                         </div>   
+                	</div>
+		</div>
+		<div class="row mp-new-section">
+			<aside class="mp-portlet-column col-lg-9">
+                                        <div class="portlet portletStaticText">
+                                        	<input type="checkbox">&nbsp;Die Mitgliedschaft Ihres Betriebes bei der BG ETEM konnte noch nicht gepfrüft werden. Bitte bestätigen Sie, dass Sie verbindlich zu den Konditionen des Nicht-Mitgliedes bestellen, sollte die Prüfung ergeben, dass Ihr Betrieb nicht Mitglied bei der BG ETEM ist.
+                                        </div>
+                                        <div class="portlet portletStaticText">
+                                        	<input type="checkbox">&nbsp;Ich habe die <a href="#">AGB</a> des Anbieters gelesen und erkläre mein Einverständnis.
+                                        </div>
+                	</aside>
+		</div>
+		<div class="row mp-new-section">
+			<div class="col-lg-4">
+                                        <button type="button" class="btn mp-btn-labeled btn-success">
+                                                Jetzt verbindlich bestellen&nbsp;
+                                                <span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
+                                        </button>
+			</div>
+		</div>
+				
+
+
+	</div>
   </metal:block>
 
 </html>
