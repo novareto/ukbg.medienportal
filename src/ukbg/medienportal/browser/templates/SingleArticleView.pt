@@ -21,7 +21,73 @@
 
 
   <metal:block fill-slot="content-core">
-    This is statix Text on SingleArticleView template
+	<div class="mp-wrapper">
+
+		<div class="row">
+			<div class="article-image col-lg-3 col-sm-3 col-xs-3">
+                                        <img class="img-responsive" src="">
+                                        <div class="col-lg-4 col-sm-4 mini-img">
+                                            <img class="img-responsive" src="">
+                                        </div>
+                                        <div class="col-lg-4 col-sm-4 mini-img">
+                                            <img class="img-responsive" src="">                                        </div>
+                                        <div class="col-lg-4 col-sm-4 mini-img">
+                                            <img class="img-responsive" src="">
+                                        </div>
+                                    </div> 
+                                    <div class="col-lg-6">
+                                        <h3 class="mp-news-description">Wenn Blicke töten können<br>Hände ans Steuer, Augen auf die Straße</h3>
+                                        <p class="col-lg-3 col-sm-2 col-xs-3"><b>Thema:</b></p>
+                                        <p class="col-lg-9 col-sm-6 col-xs-9">Verkehrssicherheit</p>
+                                        <p class="col-lg-3 col-sm-2 col-xs-3"><b>Medienart:</b></p>
+                                        <p class="col-lg-9 col-sm-6 col-xs-9">Multimedia</p>
+                                        <p class="col-lg-3 col-sm-2 col-xs-3"><b>Branche:</b></p>
+                                        <p class="col-lg-9 col-sm-6 col-xs-9">Druck und Papieverarbeitung, Elektrohandwerke, Elektrotechnische Industrie, Feinmechanik, Textil und Mode</p>
+                                        <p class="col-lg-3 col-sm-2 col-xs-3"><b>Zielgruppe:</b></p>
+                                        <p class="col-lg-9 col-sm-6 col-xs-9">Arbeitgeber und Unternehmer, Versicherte</p>
+                                    </div>
+                                    <div class="mp-price-table col-lg-3 col-sm-12 col-xs-12">
+                                       <div class="list-group">
+                                          <p class="list-group-item disabled">
+                                            Versicherte Unternehmen<br>
+                                              10 Freiexemplare jedes weitere 0,10€
+                                          </p>
+                                            <div class="list-group-item">
+                                                <p class="mp-order-info">Andere Besteller<br>0,15€ zzgl. Versandkosten</p>
+                                                <span class="mp-btn-same-width">
+                                                    <button type="button" class="btn mp-btn-labeled btn-success">
+                                                        Jetzt bestellen&nbsp;
+                                                        <span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
+                                                    </button>
+                                                </span>
+                                          <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><em>sofort lieferbar</em></p></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 col-sm-12 col-xs-12">
+                                        <hr class="media-default">
+                                        <h4 class="portletHeader"><b>Beschreibung</b></h4>
+                                        <p>Weniger Tote, aber unverändert
+                                        viele Verletzte sind
+                                        im Straßenverkehr zu beklagen
+                                        – vor allem Motorrad-
+                                        und Fahrradfahrer.
+                                        Die BG ETEM bietet ihnen
+                                        und Arbeitgebern Hilfe an.Zwei Drittel der im Jahr 2016 gemeldeten
+                                        tödlichen Verkehrsunfälle (Wege- und
+                                        Dienstwegeunfälle im Straßenverkehr im
+                                        Bereich der BG ETEM) ereigneten sich mit
+                                        dem Pkw oder Transporter.</p>
+                                        <h4 class="portletHeader"><b>Downloads</b></h4>
+                                        <p class="col-lg-3 col-sm-2 col-xs-3"><a href="#">Plakat</a></p>
+                                        <p class="col-lg-9 col-sm-10 col-xs-9 mp-download-files" >jpeg./112.21kByte&nbsp;<span class="glyphicon glyphicon-save"></span></p>
+                                        <p class="col-lg-3 col-sm-2 col-xs-3"><a href="#">Plakat</a></p>
+                                        <p class="col-lg-9 col-sm-10 col-xs-9 mp-download-files" >jpeg./112.21kByte&nbsp;<span class="glyphicon glyphicon-save"></span></p>
+                                        <p class="col-lg-3 col-sm-2 col-xs-3"><a href="#">Plakat</a></p>
+                                        <p class="col-lg-9 col-sm-10 col-xs-9 mp-download-files" >jpeg./112.21kByte&nbsp;<span class="glyphicon glyphicon-save"></span></p>
+                                    </div>
+		</div>
+
+	</div>
   </metal:block>
 
 </html>
