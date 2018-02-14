@@ -21,7 +21,7 @@
 
 
   <metal:block fill-slot="content-core">
-<div class="mp-wrapper">Mein Test
+<div class="mp-wrapper">
     <div class="row">
 	<div class="col-lg-12">
 		<div class="input-group">
@@ -33,6 +33,89 @@
 			</span>
 		</div>
 	</div>
+    </div>
+    
+    <div class="row">
+	<div class="btn-group mp-filter col-lg-3 col-xs-12">
+		<button type="button" class="btn mp-btn-default mp-drop">Themen von A bis Z</button>
+		<button type="button" class="btn mp-btn-default dropdown-toggle"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<span class="caret"></span>
+			<span class="sr-only">Toggle Dropdown</span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">Thema 1</a></li>
+			<li><a href="#">Thema 2</a></li>
+			<li><a href="#">Thema 3</a></li>
+		</ul>
+	</div>
+
+	<div class="btn-group mp-filter col-lg-3 col-xs-12">
+		<button type="button" class="btn mp-btn-default mp-drop">Zielgruppe</button>
+		<button type="button" class="btn mp-btn-default dropdown-toggle"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<span class="caret"></span>
+			<span class="sr-only">Toggle Dropdown</span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">Zielgruppe 1</a></li>
+			<li><a href="#">Zielgruppe 2</a></li>
+			<li><a href="#">Zielgruppe 3</a></li>
+		</ul>
+	</div>
+	
+	<div class="btn-group mp-filter col-lg-3 col-xs-12">
+		<button type="button" class="btn mp-btn-default mp-drop">Medienart</button>
+		<button type="button" class="btn mp-btn-default dropdown-toggle"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<span class="caret"></span>
+			<span class="sr-only">Toggle Dropdown</span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">Medienart 1</a></li>
+			<li><a href="#">Medienart 2</a></li>
+			<li><a href="#">Medienart 3</a></li>
+		</ul>
+	</div>
+
+	<div class="btn-group mp-filter col-lg-3 col-xs-12">
+		<button type="button" class="btn mp-btn-default mp-drop">Branche</button>
+		<button type="button" class="btn mp-btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<span class="caret"></span>
+			<span class="sr-only">Toggle Dropdown</span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">Branche 1</a></li>
+			<li><a href="#">Branche 2</a></li>
+			<li><a href="#">Branche 3</a></li>
+		</ul>
+	</div>				
+    </div>
+    <div class="row">
+	<p class="mp-filter-display col-lg-2 col-sm-3">Gesetzte Filter:</p>
+	<button type="button" class="btn mp-btn-secondary mp-btn-sm">Medienart 2&nbsp;
+		<span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+	</button>
+	
+	<button type="button" class="btn mp-btn-secondary mp-btn-sm">Zielgruppe 1&nbsp;
+		<span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+	</button>
+
+	<button type="button" class="btn mp-btn-secondary mp-btn-sm">Zielgruppe2 und deren Untergruppen&nbsp;
+		<span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+	</button>
+
+	<button type="button" class="btn mp-btn-secondary mp-btn-sm">Thema 3&nbsp;
+		<span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+	</button>
+    </div>
+    <div class="row">
+	<p class="mp-filter-display col-lg-3 col-sm-4 col-xs-4">Ergebnisse sortieren nach:</p>
+	<div class="btn-group mp-item-organization col-lg-2 col-sm-3 col-xs-3">
+		<button class="btn mp-btn-default mp-btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Neueste zuerst<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+			....
+		</ul>
+	</div>
+	<p class="mp-filter-display-number">Gefundene Artikel:22</p>
     </div>
 
 </div>
