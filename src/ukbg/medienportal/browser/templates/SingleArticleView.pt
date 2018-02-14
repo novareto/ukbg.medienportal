@@ -65,7 +65,7 @@
                                     </div>
                                     <div class="col-lg-9 col-sm-12 col-xs-12">
                                         <hr class="media-default">
-                                        <h4 class="portletHeader"><b>Beschreibung</b></h4>
+                                        <h4 class="mp-headline">Beschreibung</h4>
                                         <p>Weniger Tote, aber unverändert
                                         viele Verletzte sind
                                         im Straßenverkehr zu beklagen
@@ -77,7 +77,7 @@
                                         Dienstwegeunfälle im Straßenverkehr im
                                         Bereich der BG ETEM) ereigneten sich mit
                                         dem Pkw oder Transporter.</p>
-                                        <h4 class="portletHeader"><b>Downloads</b></h4>
+                                        <h4 class="mp-headline">Downloads</h4>
                                         <p class="col-lg-3 col-sm-2 col-xs-3"><a href="#">Plakat</a></p>
                                         <p class="col-lg-9 col-sm-10 col-xs-9 mp-download-files" >jpeg./112.21kByte&nbsp;<span class="glyphicon glyphicon-save"></span></p>
                                         <p class="col-lg-3 col-sm-2 col-xs-3"><a href="#">Plakat</a></p>
