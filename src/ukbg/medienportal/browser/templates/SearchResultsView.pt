@@ -21,7 +21,137 @@
 
 
   <metal:block fill-slot="content-core">
-    This is statix Text on SearchResultsView template
-  </metal:block>
+	<div class="mp-wrapper">
 
-</html>
+		<div class="row">
+			<hr class="media-default">
+			<div class="media col-lg-9">
+				<a class="col-xs-12" href="#">
+					<div class="article-image col-sm-3 col-xs-6">
+						<img class="media-object img-responsive" src="">
+					</div>
+					<div class="col-sm-9 col-xs-12">
+						<h3 class="newsDescription">"arbeit&gesundheit": Ausgabe 6 erschienen</h3>
+						<p class="tileBody">
+							<span class="bgetem_folder_description">Welche Stellschrauben es für sicheres und gesundes Arbeiten gibt, zeigen die Unfallversicherungsträger mit der neuen Präventionskampagne kommmitmensch. Sechs Handlungsfelder bilden die Grundlage. In vielen Berufen gehört es zum Alltag, Lasten zu bewegen. Wie mit den richtigen Hilfsmitteln der Rücken geschont werden kann, ist Thema der Ausgabe. Ein Aushang "Der sichere Fußweg zur Arbeit" findet sich in der Heftmitte.
+							</span>
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="mp-price-table col-lg-3">
+				<div class="list-group">
+					<p class="list-group-item disabled">
+					Nur durch Download möglich:<br class="mp-only-bigscreen">
+					Dieser Artikel ist nur durch Download erhältlich.
+					</p>
+					<div class="list-group-item">
+						<span class="mp-btn-same-width">
+							<button type="button" class="btn mp-btn-labeled btn-success">Details&nbsp;<span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
+							</button>
+						</span>
+						<p><span class="glyphicon glyphicon-save" aria-hidden="true"></span><em>Nur durch Download möglich</em>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row mp-list-devider">
+			<hr class="media-default">
+			<p class="col-lg-3"><em><strong>Medienart:</strong></em>Multimedia</p>
+			<p class="col-lg-3"><em><strong>Bestellnummer:</strong></em>P001/2017</p>
+		</div>
+		<div class="row">
+                        <hr class="media-default">
+                        <div class="media col-lg-9">
+                                <a class="col-xs-12" href="#">
+                                        <div class="article-image col-sm-3 col-xs-6">
+                                                <img class="media-object img-responsive" src="">
+                                        </div>
+                                        <div class="col-sm-9 col-xs-12">
+                                                <h3 class="newsDescription">Wenn Blicke töten können <br>Hände ans Steuer, Augen auf die Straße!</h3>
+                                                <p class="tileBody">
+                                                        <span class="bgetem_folder_description">Weniger Unfälle, aber unverändert viele Verletzte sind im Straßenverkehr zu beklagen. Welche Stellschrauben es für sicheres und gesundes Arbeiten gibt, zeigen die Unfallversicherungsträger mit der neuen Präventionskampagne kommmitmensch. Sechs Handlungsfelder bilden die Grundlage. In vielen Berufen gehört es zum Alltag, Lasten zu bewegen. Wie mit den richtigen Hilfsmitteln der Rücken geschont werden kann, ist Thema der Ausgabe. Ein Aushang "Der sichere Fußweg zur Arbeit" findet sich in der Heftmitte.
+                                                        </span>
+                                                </p>
+                                        </div>
+                                </a>
+                        </div>
+                        <div class="mp-price-table col-lg-3">
+                                <div class="list-group">
+                                        <p class="list-group-item disabled">
+                                        Versicherte Unternehmen<br class="mp-only-bigscreen">
+                                        10 Freiexemplare jedes weitere 0,10€
+                                        </p>
+                                        <div class="list-group-item">
+                                                <p class="mp-order-info">
+                                                Andere Besteller<br class="mp-only-bigscreen">
+                                                0,15€ zzgl- Versandkosten
+                                                </p>
+                                                <span class="mp-btn-same-width">
+                                                        <button type="button" class="btn mp-btn-labeled btn-success">Details&nbsp;<span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
+                                                        </button>
+							<button type="button" class="btn mp-btn-labeled btn-success">Jetzt bestellen&nbsp;<span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
+                                                        </button>
+                                                </span>
+                                                <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><em>Sofort lieferbar</em>
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="row mp-list-devider">
+                        <hr class="media-default">
+                        <p class="col-lg-3"><em><strong>Medienart:</strong></em>DVD</p>
+                        <p class="col-lg-3"><em><strong>Bestellnummer:</strong></em>DVD001/2017</p>
+                </div>
+
+		<div class="row">
+                        <hr class="media-default">
+                        <div class="media col-lg-9">
+                                <a class="col-xs-12" href="#">
+                                        <div class="article-image col-sm-3 col-xs-6">
+                                                <img class="media-object img-responsive" src="">
+                                        </div>
+                                        <div class="col-sm-9 col-xs-12">
+                                                <h3 class="newsDescription">Wenn Blicke töten können <br>Hände ans Steuer, Augen auf die Straße!</h3>
+                                                <p class="tileBody">
+                                                        <span class="bgetem_folder_description">Weniger Unfälle, aber unverändert viele Verletzte sind im Straßenverkehr zu beklagen. Welche Stellschrauben es für sicheres und gesundes Arbeiten gibt, zeigen die Unfallversicherungsträger mit der neuen Präventionskampagne kommmitmensch. Sechs Handlungsfelder bilden die Grundlage. In vielen Berufen gehört es zum Alltag, Lasten zu bewegen. Wie mit den richtigen Hilfsmitteln der Rücken geschont werden kann, ist Thema der Ausgabe. Ein Aushang "Der sichere Fußweg zur Arbeit" findet sich in der Heftmitte.
+                                                        </span>
+                                                </p>
+                                        </div>
+                                </a>
+                        </div>
+                        <div class="mp-price-table col-lg-3">
+                                <div class="list-group">
+                                        <p class="list-group-item disabled">
+                                        Versicherte Unternehmen<br class="mp-only-bigscreen">
+                                        10 Freiexemplare jedes weitere 0,10€
+                                        </p>
+                                        <div class="list-group-item">
+                                                <p class="mp-order-info">
+                                                Andere Besteller<br class="mp-only-bigscreen">
+                                                0,15€ zzgl- Versandkosten
+                                                </p>
+                                                <span class="mp-btn-same-width">
+                                                        <button type="button" class="btn mp-btn-labeled btn-success">Details&nbsp;<span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
+                                                        </button>
+                                                        <button type="button" class="btn mp-btn-labeled btn-success">Jetzt bestellen&nbsp;<span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
+                                                        </button>
+                                                </span>
+                                                <p><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><em>Zurzeit nicht lieferbar</em>
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="row mp-list-devider">
+                        <hr class="media-default">
+                        <p class="col-lg-3"><em><strong>Medienart:</strong></em>DVD</p>
+                        <p class="col-lg-3"><em><strong>Bestellnummer:</strong></em>DVD001/2017</p>
+                </div>
+
+
+	</div>
+  </metal:block>
+</html>                           
