@@ -69,7 +69,7 @@
 		<div class="row mp-new-section">
 			<div class="row col-lg-9">
                                         <div class="col-lg-3 mp-portlet-column mp-register">
-                                             <h4 class="portletHeader">Lieferadresse</h4>
+                                             <h4 class="portletHeader mp-headline">Lieferadresse</h4>
                                              <p>Herr<br>
                                              Max Mustermann<br>
                                              Musterfirma GmbH<br>
@@ -78,7 +78,7 @@
                                          </div>
 
                                          <div class="col-lg-3 mp-portlet-column mp-register">
-                                             <h4 class="portletHeader">Rechnungsadresse</h4>
+                                             <h4 class="portletHeader mp-headline">Rechnungsadresse</h4>
                                              <p>Herr<br>
                                              Max Mustermann<br>
                                              Musterfirma GmbH<br>
