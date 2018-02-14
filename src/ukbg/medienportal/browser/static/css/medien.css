@@ -169,3 +169,9 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
+.overview-table{
+	float:right;
+}
+.mp-headline{
+	color: rgba(0,153,204,1);
+}
