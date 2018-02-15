@@ -59,5 +59,17 @@
       template="templates/ShoppingCardConfirmation.pt"
       permission="zope2.View"
       />
+  <browser:page
+      name="ContactForms"
+      for="*"
+      template="templates/ContactForms.pt"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="ShoppingCardTimeline"
+      for="*"
+      template="templates/ShoppingCardTimeline.pt"
+      permission="zope2.View"
+      />
 
 </configure>
