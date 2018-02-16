@@ -110,10 +110,30 @@
                                                         <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Ort">
                                                         <label for="exampleInputEmail1"><em>*Ort</em></label>
                                                       </div>
+						      <div class="col-lg-12">
+								<button type="submit" class="btn mp-btn-default">Änderungen übernehmen</button>								
+						      </div>
                                                </form>
                                         </div>
                                     </div>
                                  </div>
+
+			 <div class="mp-wrapper">
+                                                        <div class="row mp-new-section col-lg-4">
+                                                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                                        <div class="panel panel-accordion">
+                                                                                <div class="panel-heading-inverse" role="tab" id="heading1">
+                                                                                        <a name="section-1" id="section-1"></a>
+                                                                                        <h4 class="panel-title-inverse">
+                                                                                                <a role="button" data-parent="#accordion" href="#collapse1" aria-expanded="false" class="collapsed">Fortfahren</a>
+                                                                                        </h4>
+                                                                                </div>
+                                                                                <div id="collapse1" class="" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
 
 </div>
 
