@@ -23,8 +23,8 @@
   <metal:block fill-slot="content-core">
 	<div class="mp-wrapper">
 		<div class="row col-lg-12">
-			<aside class="portlet-column col-lg-6 col-sm-6 col-xs-12">
-                                <div class="portlet portletStaticText portlet-static-videos-alles-aus-einer-hand">
+			<div class="portlet-column">
+                                <div class="portlet portletStaticText portlet-static-videos-alles-aus-einer-hand col-lg-6">
 
                                        <h4 class="portletHeader">
                                            <span class="portletTopLeft"></span>
@@ -46,21 +46,29 @@
                                                     <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Passwort">
                                                     <label for="exampleInputEmail1"><em>*Passwort</em></label>
                                                   </div>
-                                                    <span class="mp-btn-same-width">
-                                                          <button type="button" class="btn mp-btn-labeled btn-success">
-                                                            Einloggen&nbsp;
-                                                            <span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
-                                                          </button>
-                                                    </span>
+						  <div class="mp-wrapper">
+                                                        <div class="row mp-new-section">
+                                                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                                        <div class="panel panel-accordion">
+                                                                                <div class="panel-heading-inverse" role="tab" id="heading1">
+                                                                                        <a name="section-1"></a>
+                                                                                        <h4 class="panel-title-inverse">
+                                                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Einloggen</a>
+                                                                                        </h4>
+                                                                                </div>
+                                                                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
                                            </form>
 
                                                <span class="portletBottomLeft"></span>
                                                <span class="portletBottomRight"></span>
                                        </div>
                         	</div>
-                	</aside>
-			<aside class="portlet-column col-lg-6 col-sm-6 col-xs-12">
-                                <div class="portlet portletStaticText portlet-static-videos-alles-aus-einer-hand">
+			        <div class="portlet portletStaticText portlet-static-videos-alles-aus-einer-hand col-lg-6">
 
                                        <h4 class="portletHeader">
                                            <span class="portletTopLeft"></span>
@@ -76,24 +84,42 @@
                                            Sie möchten nur eine einmalige Bestellung tätigen? Kein Problem, Sie können auch ohne ein Benutzerkonto zu erstellen bequem in unserem Medienshop einkaufen.</p>
                                            <form>
                                                 <div class="form-group">
-                                                    <span class="mp-btn-same-width">
-                                                        <button type="button" class="btn mp-btn-labeled btn-success">
-                                                            Registrieren&nbsp;
-                                                            <span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
-                                                        </button>
-                                                        <button type="button" class="btn mp-btn-labeled btn-success">
-                                                            Einmalig bestellen&nbsp;
-                                                            <span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
-                                                        </button>
-                                                    </span>
-                                                </div>
+                                                	 <div class="mp-wrapper">
+                                                        	<div class="row mp-new-section">
+                                                                	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                                        	<div class="panel panel-accordion">
+                                                                                	<div class="panel-heading-inverse" role="tab" id="heading1">
+                                                                                	        <a name="section-1"></a>
+                                                                        	                <h4 class="panel-title-inverse">
+                                                                	                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Einloggen</a>
+                                                        	                                </h4>
+                                                	                                </div>
+                                        	                                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                                	                                                </div>
+                        	                                                </div>
+                	                                                </div>
+        	                                                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                                                <div class="panel panel-accordion">
+                                                                                        <div class="panel-heading-inverse" role="tab" id="heading1">
+                                                                                                <a name="section-1"></a>
+                                                                                                <h4 class="panel-title-inverse">
+                                                                                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Einloggen</a>
+                                                                                                </h4>
+                                                                                        </div>
+                                                                                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                                                                                        </div>
+                                                                                </div>
+                                                                        </div>
+	                                                </div>
+
+						</div>
                                            </form>
 
                                                <span class="portletBottomLeft"></span>
                                                <span class="portletBottomRight"></span>
                                        </div>
                         	</div>
-                	</aside>
+                	</div>
 		</div>
 	</div>    
   </metal:block>
