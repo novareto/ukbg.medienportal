@@ -103,7 +103,7 @@
                                         <div class="panel-heading-inverse" role="tab" id="heading1">
                                                 <a name="section-1"></a>
                                                 <h4 class="panel-title-inverse">
-                                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Mit der Bestellung fortfahren</a>
+                                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" class="collapsed">Mit der Bestellung fortfahren</a>
                                                 </h4>
                                         </div>
                                         <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
