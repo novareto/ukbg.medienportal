@@ -97,15 +97,20 @@
                                         </div>
                 	</aside>
 		</div>
-		<div class="row mp-new-section">
-			<div class="col-lg-4">
-                                        <button type="button" class="btn mp-btn-labeled btn-success">
-                                                Jetzt verbindlich bestellen&nbsp;
-                                                <span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
-                                        </button>
-			</div>
-		</div>
-				
+		<div class="row mp-new-section col-lg-4">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-accordion">
+                                        <div class="panel-heading-inverse" role="tab" id="heading1">
+                                                <a name="section-1"></a>
+                                                <h4 class="panel-title-inverse">
+                                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Mit der Bestellung fortfahren</a>
+                                                </h4>
+                                        </div>
+                                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                                        </div>
+                                </div>
+                        </div>
+		</div>	
 
 
 	</div>
