@@ -53,7 +53,7 @@
                                                                                 <div class="panel-heading-inverse" role="tab" id="heading1">
                                                                                         <a name="section-1"></a>
                                                                                         <h4 class="panel-title-inverse">
-                                                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" class="collapsed">Zum Download</a>
+                                                                                                <a role="button" data-parent="#accordion" href="#collapse1" aria-expanded="false" class="collapsed">Zum Download</a>
                                                                                         </h4>
                                                                                 </div>
                                                                                 <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
@@ -108,7 +108,7 @@
                                                                                 <div class="panel-heading-inverse" role="tab" id="heading1">
                                                                                         <a name="section-1"></a>
                                                                                         <h4 class="panel-title-inverse">
-                                                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Details</a>
+                                                                                                <a role="button" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Details</a>
                                                                                         </h4>
                                                                                 </div>
                                                                                 <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
@@ -120,7 +120,7 @@
                                                                                 <div class="panel-heading-inverse" role="tab" id="heading1">
                                                                                         <a name="section-1"></a>
                                                                                         <h4 class="panel-title-inverse">
-                                                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Jetzt bestellen</a>
+                                                                                                <a role="button" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Jetzt bestellen</a>
                                                                                         </h4>
                                                                                 </div>
                                                                                 <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
@@ -176,7 +176,7 @@
                                                                                 <div class="panel-heading-inverse" role="tab" id="heading1">
                                                                                         <a name="section-1"></a>
                                                                                         <h4 class="panel-title-inverse">
-                                                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Details</a>
+                                                                                                <a role="button" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Details</a>
                                                                                         </h4>
                                                                                 </div>
                                                                                 <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
@@ -188,7 +188,7 @@
                                                                                 <div class="panel-heading-inverse" role="tab" id="heading1">
                                                                                         <a name="section-1"></a>
                                                                                         <h4 class="panel-title-inverse">
-                                                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Jetzt bestellen</a>
+                                                                                                <a role="button" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Jetzt bestellen</a>
                                                                                         </h4>
                                                                                 </div>
                                                                                 <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
