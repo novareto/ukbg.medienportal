@@ -28,7 +28,7 @@
 			<div class="media col-lg-9">
 				<a class="col-xs-12" href="#">
 					<div class="article-image col-sm-3 col-xs-6">
-						<img class="media-object img-responsive" src="">
+						<img class="media-object img-responsive" src="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen/image">
 					</div>
 					<div class="col-sm-9 col-xs-12">
 						<h3 class="newsDescription">"arbeit&gesundheit": Ausgabe 6 erschienen</h3>
@@ -53,7 +53,7 @@
                                                                                 <div class="panel-heading-inverse" role="tab" id="heading1">
                                                                                         <a name="section-1"></a>
                                                                                         <h4 class="panel-title-inverse">
-                                                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Zum Download</a>
+                                                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" class="collapsed">Zum Download</a>
                                                                                         </h4>
                                                                                 </div>
                                                                                 <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
@@ -62,9 +62,9 @@
                                                                 </div>
                                                         </div>
                                                 </div>
-
-						<p><span class="glyphicon glyphicon-save" aria-hidden="true"></span><em>Nur durch Download möglich</em>
-						</p>
+						<p><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><em>zurzeit nicht lieferbar</em></p>
+						<p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><em>sofort lieferbar</em><p>
+						<p><span class="glyphicon glyphicon-save" aria-hidden="true"></span><em>nur durch Download möglich</em></p>
 					</div>
 				</div>
 			</div>
@@ -79,7 +79,7 @@
                         <div class="media col-lg-9">
                                 <a class="col-xs-12" href="#">
                                         <div class="article-image col-sm-3 col-xs-6">
-                                                <img class="media-object img-responsive" src="">
+                                                <img class="media-object img-responsive" src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-5-erschienen-1/image">
                                         </div>
                                         <div class="col-sm-9 col-xs-12">
                                                 <h3 class="newsDescription">Wenn Blicke töten können <br>Hände ans Steuer, Augen auf die Straße!</h3>
@@ -129,9 +129,9 @@
                                                                 </div>
                                                         </div>
                                                 </div>
-
-                                                <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><em>Sofort lieferbar</em>
-                                                </p>
+						<p><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><em>zurzeit nicht lieferbar</em></p>
+                                                <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><em>sofort lieferbar</em><p>
+                                                <p><span class="glyphicon glyphicon-save" aria-hidden="true"></span><em>nur durch Download möglich</em></p>
                                         </div>
                                 </div>
                         </div>
@@ -147,7 +147,7 @@
                         <div class="media col-lg-9">
                                 <a class="col-xs-12" href="#">
                                         <div class="article-image col-sm-3 col-xs-6">
-                                                <img class="media-object img-responsive" src="">
+                                                <img class="media-object img-responsive" src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image">
                                         </div>
                                         <div class="col-sm-9 col-xs-12">
                                                 <h3 class="newsDescription">Wenn Blicke töten können <br>Hände ans Steuer, Augen auf die Straße!</h3>
@@ -197,9 +197,9 @@
                                                                 </div>
                                                         </div>
                                                 </div>
-
-                                                <p><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><em>Zurzeit nicht lieferbar</em>
-                                                </p>
+						<p><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><em>zurzeit nicht lieferbar</em></p>
+                                                <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><em>sofort lieferbar</em><p>
+                                                <p><span class="glyphicon glyphicon-save" aria-hidden="true"></span><em>nur durch Download möglich</em></p>
                                         </div>
                                 </div>
                         </div>
