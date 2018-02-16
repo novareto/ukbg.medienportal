@@ -22,7 +22,99 @@
 
   <metal:block fill-slot="content-core">
 <div class="mp-wrapper">
-Initial Template - code here
+
+	<div class="row">
+		<span>Bitte kontrollieren Sie, ob Ihre Rechnungsadresse und Lieferadresse korrekt sind und korrigieren Sie diese, wenn nötig.</span>
+                                      
+                                    <div class="col-lg-3 mp-portlet-column mp-register">
+                                         <h4 class="portletHeader mp-headline">Lieferadresse</h4>
+                                         <p>Herr<br>
+                                         Max Mustermann<br>
+                                         Musterfirma GmbH<br>
+                                         Musterstraße 72 A<br>
+                                         62572 Musterhausen</p>
+                                     </div>
+                                    
+                                     <div class="col-lg-3 mp-portlet-column mp-register">
+                                         <h4 class="portletHeader mp-headline">Rechnungsadresse</h4>
+                                         <p>Herr<br>
+                                         Max Mustermann<br>
+                                         Musterfirma GmbH<br>
+                                         Musterstraße 72 A<br>
+                                         62572 Musterhausen</p>
+                                     </div>
+	</div>
+	<div class="row mp-register">                                 
+                                     <h4 class="panel-title-inverse">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expand="false" aria-controls="collapse1" class="collapsed">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Kontaktdaten ändern
+                                        </a>
+                                     </h4>
+                                     <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                                        <div class="panel-body">
+                                               <p class="documentDescription">Bitte füllen Sie das folgende Formular aus, um mit der Bestellung fortzufahren.</p>
+                                               <form>
+                                                      <div class="form-group">
+                                                        <input type="email" class="form-control" id="exampleInputEmail" placeholder="E-Mail Adresse">
+                                                        <label for="exampleInputEmail1"><em>*E-Mail Adresse</em></label>
+                                                      </div>
+                                                      <div class="form-group">
+                                                      
+                                                        <div class="btn-group mp-filter">
+                                                          <button type="button" class="btn mp-btn-default">Anrede</button>
+                                                          <button type="button" class="btn mp-btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            <span class="caret"></span>
+                                                            <span class="sr-only">Toggle Dropdown</span>
+                                                          </button>
+                                                          <ul class="dropdown-menu">
+                                                            <li><a href="#">Herr</a></li>
+                                                            <li><a href="#">Frau</a></li>
+                                                          </ul>
+                                                        </div>
+                                                      </div>
+                                                        <div class="form-group">
+                                                          
+                                                            <div class="btn-group filter">
+                                                              <button type="button" class="btn mp-btn-default">Titel</button>
+                                                              <button type="button" class="btn mp-btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                <span class="caret"></span>
+                                                                <span class="sr-only">Toggle Dropdown</span>
+                                                              </button>
+                                                              <ul class="dropdown-menu">
+                                                                <li><a href="#">Herr</a></li>
+                                                                <li><a href="#">Frau</a></li>
+                                                              </ul>
+                                                            </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Vorname">
+                                                        <label for="exampleInputEmail1"><em>*Vorname</em></label>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nachname">
+                                                        <label for="exampleInputEmail1"><em>*Nachname</em></label>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Firma">
+                                                        <label for="exampleInputEmail1"><em>*Firma</em></label>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Straße und Hausnummer">
+                                                        <label for="exampleInputEmail1"><em>*Anschrift</em></label>
+                                                      </div>
+                                                      <div class="form-group col-lg-3">
+                                                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Postleitzahl">
+                                                        <label for="exampleInputEmail1"><em>*Postleitzahl</em></label>
+                                                      </div>
+                                                      <div class="form-group col-lg-6">
+                                                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Ort">
+                                                        <label for="exampleInputEmail1"><em>*Ort</em></label>
+                                                      </div>
+                                               </form>
+                                        </div>
+                                    </div>
+                                 </div>
+
 </div>
 
   </metal:block>
