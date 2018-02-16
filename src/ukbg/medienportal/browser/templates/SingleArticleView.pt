@@ -54,14 +54,24 @@
                                           </p>
                                             <div class="list-group-item">
                                                 <p class="mp-order-info">Andere Besteller<br>0,15€ zzgl. Versandkosten</p>
-                                                <span class="mp-btn-same-width">
-                                                    <button type="button" class="btn mp-btn-labeled btn-success">
-                                                        Jetzt bestellen&nbsp;
-                                                        <span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
-                                                    </button>
-                                                </span>
-                                          <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><em>sofort lieferbar</em></p></div>
-                                        </div>
+                                                <div class="mp-wrapper">
+							<div class="row mp-new-section">
+                        					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                					<div class="panel panel-accordion">
+                                        					<div class="panel-heading-inverse" role="tab" id="heading1">
+                                                					<a name="section-1"></a>
+                                                					<h4 class="panel-title-inverse">
+                                                        					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Jetzt bestellen</a>
+											</h4>
+                                        					</div>
+                                        					<div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                                        					</div>
+                                					</div>
+                        					</div>
+                					</div>
+					   	</div>
+                                           	<p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><em>sofort lieferbar</em></p></div>
+                                          </div>
                                     </div>
                                     <div class="col-lg-9 col-sm-12 col-xs-12">
                                         <hr class="media-default">
