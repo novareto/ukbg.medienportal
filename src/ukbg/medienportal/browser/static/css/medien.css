@@ -115,6 +115,10 @@
     padding-right: 0px !important;
 
 }
+
+.mp-wrapper > .portlet-column .portlet{
+	margin: 10px 0px 10px 0px !important;
+}
 .mp-wrapper > .mp-new-section > #accordion h4 > a:after{
     background-color: #449d44;
     padding: 10px 15px;
@@ -123,6 +127,15 @@
 }
 form{
 	padding: 10px !important;
+}
+.mp-wrapper > .portlet-column{
+	clear: none !important;
+}
+.mp-wrapper > .portlet-column > .portlet{
+	float: right !important;
+}
+.counter > .input-group .form-control{
+	text-align: center;
 }
 .mp-btn-label{
 	display: inline-block;
