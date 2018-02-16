@@ -46,10 +46,23 @@
 					Dieser Artikel ist nur durch Download erhältlich.
 					</p>
 					<div class="list-group-item">
-						<span class="mp-btn-same-width">
-							<button type="button" class="btn mp-btn-labeled btn-success">Details&nbsp;<span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
-							</button>
-						</span>
+						<div class="mp-wrapper">
+                                                        <div class="row mp-new-section">
+                                                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                                        <div class="panel panel-accordion">
+                                                                                <div class="panel-heading-inverse" role="tab" id="heading1">
+                                                                                        <a name="section-1"></a>
+                                                                                        <h4 class="panel-title-inverse">
+                                                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Zum Download</a>
+                                                                                        </h4>
+                                                                                </div>
+                                                                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+
 						<p><span class="glyphicon glyphicon-save" aria-hidden="true"></span><em>Nur durch Download möglich</em>
 						</p>
 					</div>
@@ -88,12 +101,35 @@
                                                 Andere Besteller<br class="mp-only-bigscreen">
                                                 0,15€ zzgl- Versandkosten
                                                 </p>
-                                                <span class="mp-btn-same-width">
-                                                        <button type="button" class="btn mp-btn-labeled btn-success">Details&nbsp;<span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
-                                                        </button>
-							<button type="button" class="btn mp-btn-labeled btn-success">Jetzt bestellen&nbsp;<span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
-                                                        </button>
-                                                </span>
+                                                <div class="mp-wrapper">
+                                                        <div class="row mp-new-section">
+                                                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                                        <div class="panel panel-accordion">
+                                                                                <div class="panel-heading-inverse" role="tab" id="heading1">
+                                                                                        <a name="section-1"></a>
+                                                                                        <h4 class="panel-title-inverse">
+                                                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Details</a>
+                                                                                        </h4>
+                                                                                </div>
+                                                                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                                        <div class="panel panel-accordion">
+                                                                                <div class="panel-heading-inverse" role="tab" id="heading1">
+                                                                                        <a name="section-1"></a>
+                                                                                        <h4 class="panel-title-inverse">
+                                                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Jetzt bestellen</a>
+                                                                                        </h4>
+                                                                                </div>
+                                                                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+
                                                 <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><em>Sofort lieferbar</em>
                                                 </p>
                                         </div>
@@ -133,12 +169,35 @@
                                                 Andere Besteller<br class="mp-only-bigscreen">
                                                 0,15€ zzgl- Versandkosten
                                                 </p>
-                                                <span class="mp-btn-same-width">
-                                                        <button type="button" class="btn mp-btn-labeled btn-success">Details&nbsp;<span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
-                                                        </button>
-                                                        <button type="button" class="btn mp-btn-labeled btn-success">Jetzt bestellen&nbsp;<span class="mp-btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span>
-                                                        </button>
-                                                </span>
+                                                <div class="mp-wrapper">
+                                                        <div class="row mp-new-section">
+                                                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                                        <div class="panel panel-accordion">
+                                                                                <div class="panel-heading-inverse" role="tab" id="heading1">
+                                                                                        <a name="section-1"></a>
+                                                                                        <h4 class="panel-title-inverse">
+                                                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Details</a>
+                                                                                        </h4>
+                                                                                </div>
+                                                                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+						                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                                        <div class="panel panel-accordion">
+                                                                                <div class="panel-heading-inverse" role="tab" id="heading1">
+                                                                                        <a name="section-1"></a>
+                                                                                        <h4 class="panel-title-inverse">
+                                                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Jetzt bestellen</a>
+                                                                                        </h4>
+                                                                                </div>
+                                                                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+
                                                 <p><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><em>Zurzeit nicht lieferbar</em>
                                                 </p>
                                         </div>
