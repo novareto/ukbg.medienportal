@@ -41,7 +41,7 @@
                                                         <div class="media col-lg-9">
                                                             <a class="col-xs-12" href="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen" target="_blank">
                                                                 <div class="artikel-bild col-xs-4 col-sm-3">
-                                                                    <img class="media-object img-responsive" src="">
+                                                                    <img class="media-object img-responsive" src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image">
                                                                 </div>
                                                                 <div class="col-sm-9 col-xs-12">
                                                                     <p><b>Wenn Blicke töten können <br> Hände ans Steuer, Augen auf die Straße
@@ -55,13 +55,28 @@
                                                 <td class="col-sm-1 col-md-1">
                                                     <div class="input-group">
                                                       <span class="input-group-btn">
-                                                          <button type="button" class="btn btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                          <button type="button" id="down" onclick="modify_qty(-1)" class="btn btn-number" data-type="minus" data-field="quant[1]">
                                                               <span class="glyphicon glyphicon-minus"></span>
                                                           </button>
                                                       </span>
-                                                      <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="99">
+                                                      <input type="text" name="quant[1]" id="qty" class="form-control input-number" value="1" min="1" max="99">
                                                       <span class="input-group-btn">
-                                                          <button type="button" class="btn btn-number" data-type="plus" data-field="quant[1]">
+
+<script type="text/javascript">
+	function modify_qty(val) {
+    var qty = document.getElementById('qty').value;
+    var new_qty = parseInt(qty,10) + val;
+    
+    if (new_qty < 0) {
+        new_qty = 0;
+    }
+    
+    document.getElementById('qty').value = new_qty;
+    return new_qty;
+}
+</script>
+
+                                                          <button type="button" id="up" onclick="modify_qty(1)" class="btn btn-number" data-type="plus" data-field="quant[1]">
                                                               <span class="glyphicon glyphicon-plus"></span>
                                                           </button>
                                                       </span>
@@ -77,7 +92,7 @@
                                                         <div class="media col-lg-9">
                                                             <a class="col-xs-12" href="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen" target="_blank">
                                                                 <div class="artikel-bild col-xs-12 col-sm-3">
-                                                                    <img class="media-object img-responsive" src="">
+                                                                    <img class="media-object img-responsive" src="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen/image">
                                                                 </div>
                                                                 <div class="col-sm-9 col-xs-12">
                                                                     <p><b>"arbeit & Gesundheit": Ausgabe 6 erschienen
@@ -89,19 +104,34 @@
                                                         </div>
                                                     </td>
                                                 <td class="col-sm-1 col-md-1">
-                                                    <div class="input-group">
-                                                          <span class="input-group-btn">
-                                                              <button type="button" class="btn btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
-                                                                  <span class="glyphicon glyphicon-minus"></span>
-                                                              </button>
-                                                          </span>
-                                                          <input type="text" name="quant[1]" class="form-control input-number" value="15" min="1" max="99">
-                                                          <span class="input-group-btn">
-                                                              <button type="button" class="btn btn-number" data-type="plus" data-field="quant[1]">
-                                                                  <span class="glyphicon glyphicon-plus"></span>
-                                                              </button>
-                                                          </span>
-                                                      </div>                                                   
+						  <div class="input-group">
+                                                      <span class="input-group-btn">
+                                                          <button type="button" id="down" onclick="modify_qty(-1)" class="btn btn-number" data-type="minus" data-field="quant[1]">
+                                                              <span class="glyphicon glyphicon-minus"></span>
+                                                          </button>
+                                                      </span>
+                                                      <input type="text" name="quant[1]" id="qty" class="form-control input-number" value="1" min="1" max="99">
+                                                      <span class="input-group-btn">
+
+<script type="text/javascript">
+        function modify_qty(val) {
+    var qty = document.getElementById('qty').value;
+    var new_qty = parseInt(qty,10) + val;
+
+    if (new_qty < 0) {
+        new_qty = 0;
+    }
+
+    document.getElementById('qty').value = new_qty;
+    return new_qty;
+}
+</script>
+
+                                                          <button type="button" id="up" onclick="modify_qty(1)" class="btn btn-number" data-type="plus" data-field="quant[1]">
+                                                              <span class="glyphicon glyphicon-plus"></span>
+                                                          </button>
+                                                      </span>
+                                                  </div>
                                                 </td>
                                                 <td class="text-right">1,00€</td>
                                                 <td class="text-right">3,00€</td>
@@ -115,7 +145,7 @@
                                                     <td class="col-sm-2 text-right">kostenlos</td>
                                                     <td class="text-right">4,10€</td>
                                                 </tr>
-                                                <tr>
+						<tr>
                                                     <td class="checkbox-warenkorb"></td>
                                                     <td>
                                                         <button type="submit" class="btn mp-btn-default">Warenkorb aktualisieren</button>
@@ -134,7 +164,7 @@
                                 	<div class="panel-heading-inverse" role="tab" id="heading1">
                                         	<a name="section-1"></a>
                                                 <h4 class="panel-title-inverse">
-                                                       	<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Mit der Bestellung fortfahren</a>
+                                                       	<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" class="collapsed">Mit der Bestellung fortfahren</a>
                                                 </h4>
                                         </div>
                                 	<div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
@@ -146,7 +176,7 @@
                                         <div class="panel-heading-inverse" role="tab" id="heading1">
                                                 <a name="section-1"></a>
                                                 <h4 class="panel-title-inverse">
-                                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Weitere Artikel auswählen</a>
+                                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" class="collapsed">Weitere Artikel auswählen</a>
                                                 </h4>
                                         </div>
                                         <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
