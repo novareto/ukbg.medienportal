@@ -37,8 +37,8 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><input type="checkbox">
-                            <div class="media col-lg-9">
+                        <td><input type="checkbox">Diesen Artikel auswählen.
+                            <div class="mp-new-section media col-lg-9">
                                 <a class="col-xs-12" href="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen" target="_blank">
                                     <div class="artikel-bild col-xs-2 col-sm-3">
                                         <img class="media-object img-responsive" src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image">
@@ -84,8 +84,8 @@
                                     </div>
                              </div>
                         </td>
-                        <td><input type="checkbox">
-                            <div class="media col-lg-9">
+                        <td><input type="checkbox">Diesen Artikel auswählen.
+                            <div class="mp-new-section media col-lg-9">
                                 <a class="col-xs-12" href="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen" target="_blank">
                                     <div class="artikel-bild col-xs-2 col-sm-3">
                                         <img class="media-object img-responsive" src="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen/image">
