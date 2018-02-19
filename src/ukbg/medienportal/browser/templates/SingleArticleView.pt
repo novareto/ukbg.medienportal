@@ -25,28 +25,85 @@
 
 		<div class="row">
 			<div class="article-image col-lg-3 col-sm-3 col-xs-3">
-                                        <img class="img-responsive" src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image">
+            <ul class="list-inline">
+                  <li data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="0"><img class="img-thumbnail" src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image"></a></li>
+                <!--end of thumbnails-->
+            </ul>
+            
+            <!--begin modal window-->
+            <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+            <div class="pull-left"></div>
+            <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+            </div>
+            <div class="modal-body">
+
+            <!--begin carousel-->
+            <div id="myGallery" class="carousel slide" data-interval="false">
+            <div class="carousel-inner">
+            <div class="item active"> <img src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image" alt="item0">
+            <div class="carousel-caption">
+            <h3>Heading 3</h3>
+            <p>Slide 0  description.</p>
+            </div>
+            </div>
+            <div class="item"> <img src="https://www.bgetem.de/redaktion/medien-service/bilder/bg-etem-arbeit-gesundheit" alt="item1">
+            <div class="carousel-caption">
+            <h3>Heading 3</h3>
+            <p>Slide 1 description.</p>
+            </div>
+            </div>
+            <div class="item"> <img src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image" alt="item2">
+            <div class="carousel-caption">
+            <h3>Heading 3</h3>
+            <p>Slide 2  description.</p>
+            </div>
+            </div>
+            <!--end carousel-inner--></div>
+            <!--Begin Previous and Next buttons-->
+            <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+<!--end carousel--></div>
+
+            <!--end modal-body--></div>
+            <div class="modal-footer">
+            <div class="pull-left">
+            <small>Photographs by <a href="https://www.bgetem.de/" target="new">https://www.bgetem.de/</a></small>
+            </div>
+            <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+            <!--end modal-footer--></div>
+            <!--end modal-content--></div>
+            <!--end modal-dialoge--></div>
+            <!--end myModal-->></div>
                                         <div class="col-lg-4 col-sm-4 mini-img">
-                                            <img class="img-responsive" src="https://www.bgetem.de/medien-service/etem-magazin-fuer-praevention-rehabilitation-und-entschaedigung/etem/etem-5-2016-erschienen-oktober-2016/image_mini">
-                                        </div>
-                                        <div class="col-lg-4 col-sm-4 mini-img">
-                                            <img class="img-responsive" src="https://www.bgetem.de/medien-service/etem-magazin-fuer-praevention-rehabilitation-und-entschaedigung/etem/etem-5-2016-erschienen-oktober-2016/image_mini">                                        
+                                            <img class="img-responsive" src="https://www.bgetem.de/redaktion/medien-service/bilder/bg-etem-arbeit-gesundheit">                                        
 					</div>
                                         <div class="col-lg-4 col-sm-4 mini-img">
-                                            <img class="img-responsive" src="">
+                                            <img class="img-responsive" src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image">
                                         </div>
-                                    </div> 
-                                    <div class="col-lg-6">
-                                        <h3 class="mp-news-description">Wenn Blicke töten können<br>Hände ans Steuer, Augen auf die Straße</h3>
-                                        <p class="col-lg-3 col-sm-2 col-xs-3"><b>Thema:</b></p>
-                                        <p class="col-lg-9 col-sm-6 col-xs-9">Verkehrssicherheit</p>
-                                        <p class="col-lg-3 col-sm-2 col-xs-3"><b>Medienart:</b></p>
-                                        <p class="col-lg-9 col-sm-6 col-xs-9">Multimedia</p>
-                                        <p class="col-lg-3 col-sm-2 col-xs-3"><b>Branche:</b></p>
-                                        <p class="col-lg-9 col-sm-6 col-xs-9">Druck und Papieverarbeitung, Elektrohandwerke, Elektrotechnische Industrie, Feinmechanik, Textil und Mode</p>
-                                        <p class="col-lg-3 col-sm-2 col-xs-3"><b>Zielgruppe:</b></p>
-                                        <p class="col-lg-9 col-sm-6 col-xs-9">Arbeitgeber und Unternehmer, Versicherte</p>
                                     </div>
+				    <div class="col-lg-6 col-xs-6">
+                                        <h3 class="mp-news-description">Wenn Blicke töten können<br>Hände ans Steuer, Augen auf die Straße</h3>
+				    </div>
+				    <div class="mp-new-section col-lg-6 col-xs-12">
+                                        <div class="col-xs-12">
+						<p class="col-lg-3 col-sm-2 col-xs-3"><b>Thema:</b></p>
+                                        	<p class="col-lg-9 col-sm-6 col-xs-9">Verkehrssicherheit</p>
+					</div>
+                                        <div class="col-xs-12">
+						<p class="col-lg-3 col-sm-2 col-xs-3"><b>Medienart:</b></p>
+                                        	<p class="col-lg-9 col-sm-6 col-xs-9">Multimedia</p>
+					</div>
+                                        <div class="col-xs-12">
+						<p class="col-lg-3 col-sm-2 col-xs-3"><b>Branche:</b></p>
+                                        	<p class="col-lg-9 col-sm-6 col-xs-9">Druck und Papieverarbeitung, Elektrohandwerke, Elektrotechnische Industrie, Feinmechanik, Textil und Mode</p>
+					</div>
+                                        <div class="col-xs-12">
+						<p class="col-lg-3 col-sm-2 col-xs-3"><b>Zielgruppe:</b></p>
+                                        	<p class="col-lg-9 col-sm-6 col-xs-9">Arbeitgeber und Unternehmer, Versicherte</p>
+					</div>
+                                    </div> 
                                     <div class="mp-price-table col-lg-3 col-sm-12 col-xs-12">
                                        <div class="list-group">
                                           <p class="list-group-item disabled">
