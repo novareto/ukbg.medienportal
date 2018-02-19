@@ -272,3 +272,20 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
 .timeline-article-bottom .content-date{
 	top: 59%;
 }
+
+.mp-mobile-table{
+    display: none;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 760px){
+    
+    .mp-mobile-table{
+        display: block;
+	visibility: visible;
+    }
+    .mp-desktop-table{
+        display: none;
+	visibility: hidden;
+    }
+}
