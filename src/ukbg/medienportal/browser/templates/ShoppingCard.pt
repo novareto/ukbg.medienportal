@@ -24,7 +24,141 @@
 	<div class="mp-wrapper">
 
 		<div class="row">
-			<table class="table table-bordered table-striped">
+
+			<!---------- Table mobile ---------->
+            
+            <table class="mp-mobile-table table table-bordered table-striped">
+                <thead>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="media col-lg-9">
+                                <a class="col-xs-12" href="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen" target="_blank">
+                                    <div class="artikel-bild col-xs-2 col-sm-3">
+                                        <img class="media-object img-responsive" src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image">
+                                    </div>
+                                    <div class="col-sm-9 col-xs-10">
+                                        <p><b>Wenn Blicke töten können <br> Hände ans Steuer, Augen auf die Straße
+                                        </b></p>
+                                        <p>P001/2017</p>
+                                        <p class="mp-delete"><em>Artikel entfernen</em>&nbsp;<span class="glyphicon glyphicon-remove-sign"></span></p>
+                                    </div></a>
+                                    <div class="mp-new-section col-xs-12">
+                                        <div class="counter col-xs-4">
+                                            <div class="input-group">
+                                                  <span class="input-group-btn">
+                                                      <button type="button" id="down" onclick="modify_qty(-1)" class="btn btn-number" data-type="minus" data-field="quant[1]">
+                                                          <span class="glyphicon glyphicon-minus"></span>
+                                                      </button>
+                                                  </span>
+                                                  <input type="text" name="quant[1]" id="qty" class="form-control input-number" value="1" min="1" max="99"><span class="input-group-btn">
+
+                <script type="text/javascript">
+                function modify_qty(val) {
+                var qty = document.getElementById('qty').value;
+                var new_qty1 = parseInt(qty,10) + val;
+
+                if (new_qty < 0) {
+                new_qty = 0;
+                }
+
+                document.getElementById('qty').value = new_qty;
+                return new_qty;
+                }
+                </script><button type="button" id="up" onclick="modify_qty(1)" class="btn btn-number" data-type="plus" data-field="quant[1]">
+                                                          <span class="glyphicon glyphicon-plus"></span>
+                                                      </button>
+                                                  </span>
+                                            </div>
+                                        </div>
+                                        <div class="price col-xs-8">
+                                            <p>0,00€ <em>Preis für versicherte Unternehmen</em></p>
+                                            <p>0,15€ <em>Preis für Nichtversicherte Unternehmen</em></p>
+                                        </div>
+                                    </div>
+                             </div>
+                        </td>
+                        <td>
+                            <div class="media col-lg-9">
+                                <a class="col-xs-12" href="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen" target="_blank">
+                                    <div class="artikel-bild col-xs-2 col-sm-3">
+                                        <img class="media-object img-responsive" src="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen/image">
+                                    </div>
+                                    <div class="col-sm-9 col-xs-10">
+                                        <p><b>Wenn Blicke töten können <br> Hände ans Steuer, Augen auf die Straße
+                                        </b></p>
+                                        <p>P001/2017</p>
+                                        <p class="mp-delete"><em>Artikel entfernen</em>&nbsp;<span class="glyphicon glyphicon-remove-sign"></span></p>
+                                    </div></a>
+                                    <div class="mp-new-section col-xs-12">
+                                        <div class="counter col-xs-4">
+                                            <div class="input-group">
+                                                  <span class="input-group-btn">
+                                                      <button type="button" id="down" onclick="modify_qty(-1)" class="btn btn-number" data-type="minus" data-field="quant[1]">
+                                                          <span class="glyphicon glyphicon-minus"></span>
+                                                      </button>
+                                                  </span>
+                                                  <input type="text" name="quant[1]" id="qty" class="form-control input-number" value="1" min="1" max="99"><span class="input-group-btn">
+
+                <script type="text/javascript">
+                function modify_qty(val) {
+                var qty = document.getElementById('qty').value;
+                var new_qty1 = parseInt(qty,10) + val;
+
+                if (new_qty < 0) {
+                new_qty = 0;
+                }
+
+                document.getElementById('qty').value = new_qty;
+                return new_qty;
+                }
+                </script><button type="button" id="up" onclick="modify_qty(1)" class="btn btn-number" data-type="plus" data-field="quant[1]">
+                                                          <span class="glyphicon glyphicon-plus"></span>
+                                                      </button>
+                                                  </span>
+                                            </div>
+                                        </div>
+                                        <div class="price col-xs-8">
+                                            <p>0,00€ <em>Preis für versicherte Unternehmen</em></p>
+                                            <p>0,15€ <em>Preis für Nichtversicherte Unternehmen</em></p>
+                                        </div>
+                                    </div>
+                             </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit" class="btn mp-btn-default">Warenkorb aktualisieren</button>
+                            <button type="submit" class="btn mp-btn-default">Löschen</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="media col-lg-9">
+                                <p class="total-price col-xs-4">Versandkosten:</p>
+                                <p class="price text-right col-xs-4">0,00€</p>
+                                <p class="price text-right col-xs-4">4,30€</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="media col-lg-9">
+                                <p class="total-price col-xs-4"><b>Summe:</b></p>
+                                <p class="price text-right col-xs-4">0,00€</p>
+                                <p class="price text-right col-xs-4">4,60€</p>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!---------- Table mobile end ------>
+
+			<table class="mp-desktop-table table table-bordered table-striped">
                                        <thead>
                                            <tr>
                                                <th class="checkbox-cart"></th>
