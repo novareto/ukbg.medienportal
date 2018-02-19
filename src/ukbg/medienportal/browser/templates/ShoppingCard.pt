@@ -37,7 +37,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>
+                        <td><input type="checkbox">
                             <div class="media col-lg-9">
                                 <a class="col-xs-12" href="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen" target="_blank">
                                     <div class="artikel-bild col-xs-2 col-sm-3">
@@ -84,7 +84,7 @@
                                     </div>
                              </div>
                         </td>
-                        <td>
+                        <td><input type="checkbox">
                             <div class="media col-lg-9">
                                 <a class="col-xs-12" href="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen" target="_blank">
                                     <div class="artikel-bild col-xs-2 col-sm-3">
@@ -134,8 +134,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <button type="submit" class="btn mp-btn-default">Warenkorb aktualisieren</button>
-                            <button type="submit" class="btn mp-btn-default">Löschen</button>
+			 	<input type="checkbox">Alle Artikel auswählen
                         </td>
                     </tr>
                     <tr>
@@ -152,6 +151,12 @@
                                 <p class="price text-right col-xs-4">0,00€</p>
                                 <p class="price text-right col-xs-4">4,60€</p>
                             </div>
+                        </td>
+                    </tr>
+		    <tr>
+                        <td>
+                            <button type="submit" class="btn mp-btn-default">Warenkorb aktualisieren</button>
+                            <button type="submit" class="btn mp-btn-default">Löschen</button>
                         </td>
                     </tr>
                 </tbody>
