@@ -280,8 +280,13 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
 #content-core > .mp-wrapper ul li:before{
 	display: none !important;
 }
-
-@media only screen and (max-width: 760px){
+#content-core > .mp-wrapper ul li{
+	padding-left: 0px;
+}
+.modal-content{
+	width: ;
+}
+@media only screen and (max-width: 770px){
     
     .mp-mobile-table{
         display: block;
@@ -294,6 +299,14 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
     .mini-img{
 	display: none;
 	visibility: hidden;
+    }
+}
+@media only screen and (max-width: 980px){
+    #content-core > .mp-wrapper{
+	padding-left:18px;
+    }
+    .modal-body{
+	height: auto;
     }
 }
 
