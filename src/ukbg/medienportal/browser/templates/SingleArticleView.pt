@@ -26,7 +26,7 @@
 		<div class="row">
 			<div class="article-image col-lg-3 col-sm-3 col-xs-3">
             <ul class="list-inline">
-                  <li data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="0"><img class="img-thumbnail" src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image"></a></li>
+                  <li data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="0"><img class="img-thumbnail mp-preview" src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image"></a></li>
 		  <li class="col-lg-4 col-sm-4 col-xs-1 mini-img">
                     <img class="img-thumbnail" src="https://www.bgetem.de/redaktion/medien-service/bilder/bg-etem-arbeit-gesundheit">
                   </li>
