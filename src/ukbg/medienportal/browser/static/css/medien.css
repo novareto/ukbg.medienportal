@@ -300,6 +300,15 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
 	display: none;
 	visibility: hidden;
     }
+    .mp-search{
+	width: 75px;
+    }
+    .mp-drop{
+   	width: 95%;
+    }
+    .mp-item-organization{
+        float: right;
+    }
 }
 @media only screen and (max-width: 980px){
     #content-core > .mp-wrapper{
@@ -307,6 +316,9 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
     }
     .modal-body{
 	height: auto;
+    }
+    .mp-drop{
+	width: 95%;
     }
 }
 
