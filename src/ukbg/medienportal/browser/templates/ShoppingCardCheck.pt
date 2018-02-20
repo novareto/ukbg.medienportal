@@ -89,10 +89,10 @@
 		</div>
 		<div class="row mp-new-section">
 			<aside class="mp-portlet-column col-lg-9">
-                                        <div class="portlet portletStaticText">
+                                        <div class="portlet portletStaticText mp-check">
                                         	<input type="checkbox">&nbsp;Die Mitgliedschaft Ihres Betriebes bei der BG ETEM konnte noch nicht gepfrüft werden. Bitte bestätigen Sie, dass Sie verbindlich zu den Konditionen des Nicht-Mitgliedes bestellen, sollte die Prüfung ergeben, dass Ihr Betrieb nicht Mitglied bei der BG ETEM ist.
                                         </div>
-                                        <div class="portlet portletStaticText">
+                                        <div class="portlet portletStaticText mp-check">
                                         	<input type="checkbox">&nbsp;Ich habe die <a href="#">AGB</a> des Anbieters gelesen und erkläre mein Einverständnis.
                                         </div>
                 	</aside>
