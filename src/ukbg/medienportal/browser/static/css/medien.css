@@ -309,6 +309,9 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
     .mp-item-organization{
         float: right;
     }
+    .mp-btn-default{
+ 	margin-bottom: 5px;
+    }
 }
 @media only screen and (max-width: 980px){
     #content-core > .mp-wrapper{
