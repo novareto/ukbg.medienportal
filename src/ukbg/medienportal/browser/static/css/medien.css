@@ -286,6 +286,12 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
 .modal-content{
 	width: ;
 }
+.mp-preview{
+	width: 100%;
+}
+.mp-check{ 
+	margin-bottom: 20px;
+}
 @media only screen and (max-width: 770px){
     
     .mp-mobile-table{
@@ -304,7 +310,7 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
 	width: 75px;
     }
     .mp-drop{
-   	width: 95%;
+   	width: 70%;
     }
     .mp-item-organization{
         float: right;
@@ -321,7 +327,7 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
 	height: auto;
     }
     .mp-drop{
-	width: 95%;
+	width: 70%;
     }
 }
 
