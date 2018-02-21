@@ -319,6 +319,9 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
 .mp-check{ 
 	margin-bottom: 20px;
 }
+.table > thead > tr > th{
+	vertical-align: top;
+}
 /* read more */
 .read-more-state {
   display: none;
@@ -353,6 +356,11 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
 }
 
 /* read more */
+@media only screen and (max-width:797px){
+    #content-core img{
+	float: left;
+    }
+}
 
 @media only screen and (max-width: 770px){
     
