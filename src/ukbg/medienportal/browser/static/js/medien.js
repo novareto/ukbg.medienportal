@@ -1,5 +1,5 @@
-(function($) {
- $(document).ready(function(){
-     alert("Custom JS Active!");
- });
-})(jQuery);
+//**(function($) {
+ //$(document).ready(function(){
+   //  alert("Custom JS Active!");
+ //});
+//})(jQuery);**//
