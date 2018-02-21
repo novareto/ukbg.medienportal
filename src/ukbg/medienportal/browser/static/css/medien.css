@@ -11,6 +11,7 @@
 	background-color: #fff;
 	color: #51ae31;
 	padding-right: 10px;
+	margin-bottom: 5px;
 }
 .mp-btn-default:hover{
 	border: 1px solid #51ae31;
@@ -315,8 +316,7 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
 	visibility: visible;
     }
     .mp-desktop-table{
-        display: none;
-	visibility: hidden;
+       display: none !important;
     }
     .mini-img{
 	display: none;
