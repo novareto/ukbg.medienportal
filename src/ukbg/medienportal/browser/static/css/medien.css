@@ -108,6 +108,14 @@
 .mp-wrapper > .mp-new-section > #accordion h4 > a{
     color: white !important;
 }
+.mp-panel a[aria-expanded="true"]{
+	background-color: white !important;
+	color: #004994 !important;
+	padding-left: 0px;	
+}
+.mp-panel a{
+	padding-left: 0px;
+}
 .mp-wrapper > .mp-new-section > #accordion h4{
     border-bottom: 0px !important;
     margin: 0px !important;
@@ -125,14 +133,21 @@
     margin-top: -10px;
     margin-right: -15px;
 }
-form{
-	padding: 10px !important;
+.panel-body{
+	padding-left: 0px !important;
 }
 .mp-wrapper > .portlet-column{
 	clear: none !important;
 }
 .mp-wrapper > .portlet-column > .portlet{
 	float: right !important;
+	margin-left: 0px !important;
+}
+.mp-portlet{
+	margin-left:0px !important;
+}
+.mp-login{
+	padding: 0 10px !important;
 }
 .counter > .input-group .form-control{
 	text-align: center;
@@ -238,7 +253,8 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
 	width: 20%;
 	position: relative;
 	min-height: 300px;
-	float: right;
+	float: left;
+	left: 5%;
 }
 .timeline-article .content-date{
 	position: absolute;
@@ -320,14 +336,23 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
     }
 }
 @media only screen and (max-width: 980px){
-    #content-core > .mp-wrapper{
-	padding-left:18px;
-    }
+
     .modal-body{
 	height: auto;
     }
     .mp-drop{
 	width: 70%;
     }
+    #content-core > .mp-wrapper{
+    	padding-right:0px;
+    }
 }
+@media only screen and (max-width:480px){
+    .timeline{
+	display:none;
 
+    }
+    .conference-center-line{
+	display: none;
+    }
+}
