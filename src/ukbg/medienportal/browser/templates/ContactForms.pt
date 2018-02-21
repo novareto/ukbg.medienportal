@@ -45,7 +45,7 @@
                                      </div>
 	</div>
 	<div class="row mp-register">                                 
-                                     <h4 class="panel-title-inverse">
+                                     <h4 class="panel-title-inverse mp-panel">
                                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expand="false" aria-controls="collapse1" class="collapsed">
                                         <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Kontaktdaten ändern
                                         </a>
@@ -58,9 +58,9 @@
                                                         <input type="email" class="form-control" id="exampleInputEmail" placeholder="E-Mail Adresse">
                                                         <label for="exampleInputEmail1"><em>*E-Mail Adresse</em></label>
                                                       </div>
-                                                      <div class="form-group">
+                                                      <div class="form-group col-sm-2">
                                                       
-                                                        <div class="btn-group mp-filter">
+                                                        <div class="btn-group filter">
                                                           <button type="button" class="btn mp-btn-default">Anrede</button>
                                                           <button type="button" class="btn mp-btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             <span class="caret"></span>
@@ -72,7 +72,7 @@
                                                           </ul>
                                                         </div>
                                                       </div>
-                                                        <div class="form-group">
+                                                        <div class="form-group col-sm-2">
                                                           
                                                             <div class="btn-group filter">
                                                               <button type="button" class="btn mp-btn-default">Titel</button>
@@ -81,8 +81,8 @@
                                                                 <span class="sr-only">Toggle Dropdown</span>
                                                               </button>
                                                               <ul class="dropdown-menu">
-                                                                <li><a href="#">Herr</a></li>
-                                                                <li><a href="#">Frau</a></li>
+                                                                <li><a href="#">Dr.</a></li>
+                                                                <li><a href="#">Prof.</a></li>
                                                               </ul>
                                                             </div>
                                                       </div>
