@@ -26,7 +26,7 @@
 		<div class="row">
 			<p>Bitte kontrollieren Sie Ihre Bestellung nocheinmal und bestätigen diese dann.</p>
 			<aside class="portlet-column col-lg-9">
-                                        <div class="mp-portlet portlet portletStaticText portlet-static-videos-alles-aus-einer-hand">
+                                        <div class="mp-portlet portlet portletStaticText portlet-static-videos-alles-aus-einer-hand col-xs-12">
 
                                            <h4 class="portletHeader">
                                                <span class="portletTopLeft">
@@ -39,24 +39,28 @@
 
                                            </h4>
 
-                                           <div class="list-group portletItem odd">
+                                           <div class="list-group portletItem odd col-xs-12">
                                                <ul>
-                                                    <li>
-                                                        1x&nbsp; Wenn Blicke töten können P001/2017
-                                                        <span class="overview-table">0,00€</span>
+                                                    <li class="col-xs-12">
+                                                        <span class="col-xs-10">1x&nbsp; Wenn Blicke töten können P001/2017</span>
+                                                        <span class="overview-table col-xs-1">0,00€</span>
                                                     </li>
-                                                   <hr class="media-default">
-                                                    <li>15x&nbsp; "arbeit & Gesundheit" Ausgabe 6 erschienen
-                                                        <span class="overview-table">1,00€</span>
+                                                   <hr class="media-default col-xs-12">
+                                                    <li class="col-xs-12">
+							<span class="col-xs-10">15x&nbsp; "arbeit & Gesundheit" Ausgabe 6 erschienen</span>
+                                                        <span class="overview-table col-xs-1">1,00€</span>
                                                     </li> 
-                                                   <hr class="media-default">
-                                                    <li>Versandkosten
-                                                        <span class="overview-table">0,00€</span>
+                                                   <hr class="media-default col-xs-12">
+                                                    <li class="col-xs-12">
+							<span class="col-xs-10">Versandkosten</span>
+                                                        <span class="overview-table col-xs-1">0,00€</span>
                                                     </li>
                                                </ul>
-                                               <ul class="overview-table-total">             
-                                                    <li><b>Summe Gesamt</b>
-                                                        <span class="overview-table">1,00€</span>
+                                               <ul class="overview-table-total col-xs-12">             
+                                                    <hr class="media-default col-xs-12">
+						    <li class="col-xs-12">
+							<span class="col-xs-10"><b>Summe Gesamt</b></span>
+                                                        <span class="overview-table col-xs-1"><b>1,00€</b></span>
                                                     </li>                                           
                                                </ul>
 
@@ -97,7 +101,7 @@
                                         </div>
                 	</aside>
 		</div>
-		<div class="row mp-new-section col-lg-4">
+		<div class="row mp-new-section col-sm-5">
                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                 <div class="panel panel-accordion">
                                         <div class="panel-heading-inverse" role="tab" id="heading1">
