@@ -86,19 +86,19 @@
                                                               </ul>
                                                             </div>
                                                       </div>
-                                                      <div class="form-group">
+                                                      <div class="form-group col-sm-12">
                                                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Vorname">
                                                         <label for="exampleInputEmail1"><em>*Vorname</em></label>
                                                       </div>
-                                                      <div class="form-group">
+                                                      <div class="form-group col-sm-12">
                                                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nachname">
                                                         <label for="exampleInputEmail1"><em>*Nachname</em></label>
                                                       </div>
-                                                      <div class="form-group">
+                                                      <div class="form-group col-sm-12">
                                                         <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Firma">
                                                         <label for="exampleInputEmail1"><em>*Firma</em></label>
                                                       </div>
-                                                      <div class="form-group">
+                                                      <div class="form-group col-sm-12">
                                                         <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Straße und Hausnummer">
                                                         <label for="exampleInputEmail1"><em>*Anschrift</em></label>
                                                       </div>
