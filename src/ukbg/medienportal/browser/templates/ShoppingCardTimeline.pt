@@ -28,27 +28,27 @@
                                             <div class="conference-timeline-content">
                                                 <div class="timeline-article timeline-article-bottom">
                                                     <div class="content-date">
-                                                        <span>Bestellen</span>
+                                                        <span>Warenkorb</span>
                                                     </div>
                                                     <div class="meta-date"></div>
                                                 </div>
 
                                                 <div class="timeline-article timeline-article-bottom">
-                                                    <div class="content-date">
-                                                        <span>Kontaktdaten</span>
-                                                    </div>
-                                                    <div class="meta-date"></div>
-                                                </div>
-                                                 <div class="timeline-article timeline-article-bottom">
                                                     <div class="content-date">
                                                         <span>Registrieren</span>
                                                     </div>
                                                     <div class="meta-date"></div>
                                                 </div>
+                                                 <div class="timeline-article timeline-article-bottom">
+                                                    <div class="content-date">
+                                                        <span>Kontaktdaten</span>
+                                                    </div>
+                                                    <div class="meta-date"></div>
+                                                </div>
 
                                                 <div class="timeline-article timeline-article-bottom">
                                                     <div class="content-date">
-                                                        <span>Warenkorb</span>
+                                                        <span>Bestellen</span>
                                                     </div>
                                                     <div class="meta-date aktiv"></div>
                                                 </div> 
