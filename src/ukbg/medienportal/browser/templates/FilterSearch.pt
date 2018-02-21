@@ -108,8 +108,8 @@
     </div>
     <div class="row">
 	<div class="col-xs-12 col-sm-7">
-	<p class="mp-filter-display col-lg-3 col-sm-7 col-xs-6">Ergebnisse sortieren nach:</p>
-	<div class="btn-group mp-item-organization">
+	<p class="mp-filter-display col-sm-6 col-xs-12">Ergebnisse sortieren nach:</p>
+	<div class="btn-group mp-item-organization col-xs-12 col-sm-2">
 		<button class="btn mp-btn-default mp-btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Neueste zuerst<span class="caret"></span>
 		</button>
 		<ul class="dropdown-menu">
@@ -117,7 +117,7 @@
 		</ul>
 	</div>
 	</div>
-	<p class="mp-filter-display-number">Gefundene Artikel:22</p>
+	<p class="mp-filter-display-number col-xs-12 col-sm-3">Gefundene Artikel:22</p>
     </div>
 
 </div>
