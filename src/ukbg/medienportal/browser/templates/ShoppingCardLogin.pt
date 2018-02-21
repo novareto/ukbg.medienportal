@@ -38,16 +38,16 @@
                                            <p><a href="#" target="_self" title=""></a></p>
                                            <p>Bitte geben Sie Ihre E-Mail Adresse und Ihr Passwort an, um mit der Bestellung fortzufahren.</p>
                                             <form>
-                                                  <div class="form-group">
+                                                  <p class="form-group">
                                                     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-Mail">
                                                     <label for="exampleInputEmail1"><em>*E-Mail Addresse</em></label>
-                                                  </div>
-                                                  <div class="form-group">
+                                                  </p>
+                                                  <p class="form-group">
                                                     <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Passwort">
                                                     <label for="exampleInputEmail1"><em>*Passwort</em></label>
-                                                  </div>
-						  <div class="mp-wrapper">
-                                                        <div class="row mp-new-section">
+                                                  </p>
+						  <div class="mp-wrapper mp-login">
+                                                       <div class="row mp-new-section">
                                                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                                                         <div class="panel panel-accordion">
                                                                                 <div class="panel-heading-inverse" role="tab" id="heading1">
@@ -86,7 +86,7 @@
                                            <p>Registrieren Sie sich jetzt bei der BGETEM und bestellen Sie auch in Zukunft schnell und einfach Produkte aus unserem Medienshop.<br>
                                            Sie möchten nur eine einmalige Bestellung tätigen? Kein Problem, Sie können auch ohne ein Benutzerkonto zu erstellen bequem in unserem Medienshop einkaufen.</p>
                                            <form>
-                                                <div class="form-group">
+                                                <div class="form-group mp-login">
                                                 	 <div class="mp-wrapper">
                                                         	<div class="row mp-new-section">
                                                                 	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -113,6 +113,7 @@
                                                                                         </div>
                                                                                 </div>
                                                                         </div>
+								</div>
 	                                                </div>
 
 						</div>
