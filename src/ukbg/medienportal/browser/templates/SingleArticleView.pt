@@ -140,7 +140,11 @@
                                     <div class="col-lg-9 col-sm-12 col-xs-12">
                                         <hr class="media-default">
                                         <h4 class="mp-headline">Beschreibung</h4>
-                                        <p>Weniger Tote, aber unverändert
+                                        <p></p>
+				       	<div>
+  						<input type="checkbox" class="read-more-state" id="post-1" />
+
+  						<p class="read-more-wrap">Weniger Tote, aber unverändert
                                         viele Verletzte sind
                                         im Straßenverkehr zu beklagen
                                         – vor allem Motorrad-
@@ -150,7 +154,24 @@
                                         tödlichen Verkehrsunfälle (Wege- und
                                         Dienstwegeunfälle im Straßenverkehr im
                                         Bereich der BG ETEM) ereigneten sich mit
-                                        dem Pkw oder Transporter.</p>
+                                        dem Pkw oder Transporter.
+							 <span class="read-more-target">Weniger Tote, aber unverändert
+                                        viele Verletzte sind
+                                        im Straßenverkehr zu beklagen
+                                        – vor allem Motorrad-
+                                        und Fahrradfahrer.
+                                        Die BG ETEM bietet ihnen
+                                        und Arbeitgebern Hilfe an.Zwei Drittel der im Jahr 2016 gemeldeten
+                                        tödlichen Verkehrsunfälle (Wege- und
+                                        Dienstwegeunfälle im Straßenverkehr im
+                                        Bereich der BG ETEM) ereigneten sich mit
+                                        dem Pkw oder Transporter.</span>	
+						</p>
+  						<label for="post-1" class="read-more-trigger"></label>
+				   	</div>	
+				    </div>
+
+				    <div class="col-lg-9 col-sm-12 col-xs-12">
                                         <h4 class="mp-headline">Downloads</h4>
                                         <p class="col-lg-3 col-sm-2 col-xs-3"><a href="#">Plakat</a></p>
                                         <p class="col-lg-9 col-sm-10 col-xs-9 mp-download-files" >jpeg./112.21kByte&nbsp;<a href="#"><span class="glyphicon glyphicon-save"></span></a></p>
