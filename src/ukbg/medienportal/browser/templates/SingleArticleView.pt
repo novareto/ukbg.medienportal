@@ -142,7 +142,7 @@
                                         <h4 class="mp-headline">Beschreibung</h4>
                                         <p></p>
 				       	<div>
-  						<input type="checkbox" class="read-more-state" id="post-1" />
+  						<input type="checkbox"  class="read-more-state" id="post-1" />
 
   						<p class="read-more-wrap">Weniger Tote, aber unverändert
                                         viele Verletzte sind
