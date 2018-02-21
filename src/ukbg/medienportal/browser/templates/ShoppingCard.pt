@@ -293,7 +293,7 @@
                                             </tbody>
                                     </table>
                 </div>
-		<div class="row mp-new-section col-sm-7 col-sm-offset-5 col-xs-12">
+		<div class="row mp-new-section col-sm-5 col-sm-offset-7 col-xs-12">
                 	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                 <div class="panel panel-accordion">
                                 	<div class="panel-heading-inverse" role="tab" id="heading1">
