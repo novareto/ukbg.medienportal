@@ -43,9 +43,9 @@
 			<span class="sr-only">Toggle Dropdown</span>
 		</button>
 		<ul class="dropdown-menu">
-			<li><a href="#">Thema 1</a></li>
-			<li><a href="#">Thema 2</a></li>
-			<li><a href="#">Thema 3</a></li>
+			<li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Photovoltaikanlagen und mehr</a></li>
+			<li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeitsmedizin</a></li>
+			<li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeitsmittel /Werkzeuge</a></li>
 		</ul>
 	</div>
 
@@ -56,9 +56,9 @@
 			<span class="sr-only">Toggle Dropdown</span>
 		</button>
 		<ul class="dropdown-menu">
-			<li><a href="#">Zielgruppe 1</a></li>
-			<li><a href="#">Zielgruppe 2</a></li>
-			<li><a href="#">Zielgruppe 3</a></li>
+			<li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                        <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebärztinnen und Ärzte</a></li>
+                        <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebs-/Personalräte</a></li>
 		</ul>
 	</div>
 	
@@ -69,9 +69,9 @@
 			<span class="sr-only">Toggle Dropdown</span>
 		</button>
 		<ul class="dropdown-menu">
-			<li><a href="#">Medienart 1</a></li>
-			<li><a href="#">Medienart 2</a></li>
-			<li><a href="#">Medienart 3</a></li>
+			<li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Faltblätter</a></li>
+                        <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Broschüren</a></li>
+                        <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Multimedia</a></li>
 		</ul>
 	</div>
 
@@ -82,9 +82,9 @@
 			<span class="sr-only">Toggle Dropdown</span>
 		</button>
 		<ul class="dropdown-menu">
-			<li><a href="#">Branche 1</a></li>
-			<li><a href="#">Branche 2</a></li>
-			<li><a href="#">Branche 3</a></li>
+			<li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Druck und Papierverarbeitung</a></li>
+                        <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Buchbinderei und Druckverarbeitung</a></li>
+                        <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Digital und Siebdruck</a></li>
 		</ul>
 	</div>				
     </div>
