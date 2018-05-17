@@ -107,7 +107,7 @@
                                         	<p class="col-lg-9 col-sm-6 col-xs-9">Arbeitgeber und Unternehmer, Versicherte</p>
 					</div>
                                     </div> 
-                                    <div class="mp-price-table col-lg-3 col-sm-12 col-xs-12">
+                                    <!-- <div class="mp-price-table col-lg-3 col-sm-12 col-xs-12">
                                        <div class="list-group">
                                           <p class="list-group-item disabled">
                                             Versicherte Unternehmen<br>
@@ -136,7 +136,35 @@
 						<p><span class="glyphicon glyphicon-save" aria-hidden="true"></span><em>nur durch Download möglich</em></p>
 						</div>
                                           </div>
+                                    </div>-->
+				    <!-- ONLY DOWNLOAD PORTLET -->
+				    <div class="mp-price-table col-lg-3 col-sm-12 col-xs-12">
+                                       <div class="list-group">
+                                          <p class="list-group-item disabled">
+                                            Nur durch Download möglich:<br>Dieser Artikel ist nur durch Download erhältlich.
+                                          </p>
+                                            <div class="list-group-item">
+                                                <div class="mp-wrapper">
+                                                        <div class="row mp-new-section">
+                                                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                                        <div class="panel panel-accordion">
+                                                                                <div class="panel-heading-inverse" role="tab" id="heading1">
+                                                                                        <a name="section-1"></a>
+                                                                                        <h4 class="panel-title-inverse">
+                                                                                                <a role="button" data-parent="#accordion" href="#downloadlist" aria-expanded="false" class="collapsed">Downloadliste</a>
+                                                                                        </h4>
+                                                                                </div>
+                                                                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <p><a href="#"><span class="glyphicon glyphicon-save-file" aria-hidden="true"></span></a><em>&nbsp;Alle zugehörigen Dateien als Zip-Datei herunterladen 50MB</em></p>
+                                                </div>
+                                          </div>
                                     </div>
+				    <!-- ONLY DOWNLOAD PORTLET END -->
                                     <div class="col-lg-9 col-sm-12 col-xs-12">
                                         <hr class="media-default">
                                         <h4 class="mp-headline">Beschreibung</h4>
@@ -172,7 +200,7 @@
 				    </div>
 
 				    <div class="col-lg-9 col-sm-12 col-xs-12">
-                                        <h4 class="mp-headline">Downloads</h4>
+                                        <h4 class="mp-headline" id="downloadlist">Downloads</h4>
                                         <p class="col-lg-3 col-sm-2 col-xs-3"><a href="#">Plakat</a></p>
                                         <p class="col-lg-9 col-sm-10 col-xs-9 mp-download-files" >jpeg./112.21kByte&nbsp;<a href="#"><span class="glyphicon glyphicon-save"></span></a></p>
                                         <p class="col-lg-3 col-sm-2 col-xs-3"><a href="#">Plakat</a></p>
