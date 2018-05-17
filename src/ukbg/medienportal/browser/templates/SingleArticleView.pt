@@ -27,14 +27,14 @@
 			<div class="article-image col-lg-3 col-sm-3 col-xs-3">
             <ul class="list-inline">
                   <li data-toggle="modal" data-target="#myModal"><a href="#myGallery" data-slide-to="0"><img class="img-thumbnail mp-preview" src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image"></a></li>
-		  <li class="col-lg-4 col-sm-4 col-xs-1 mini-img">
-                    <img class="img-thumbnail" src="https://www.bgetem.de/redaktion/medien-service/bilder/bg-etem-arbeit-gesundheit">
+		  <li data-toggle="modal" data-target="#myModal" class="col-lg-4 col-sm-4 col-xs-1 mini-img">
+                    <a href="#myGallery" data-slide-to="0"><img class="img-thumbnail" src="https://www.bgetem.de/redaktion/medien-service/bilder/bg-etem-arbeit-gesundheit"></a>
                   </li>
-		  <li class="col-lg-4 col-sm-4 col-xs-1 mini-img">
-                    <img class="img-thumbnail" src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image">
+		  <li data-toggle="modal" data-target="#myModal" class="col-lg-4 col-sm-4 col-xs-1 mini-img">
+                    <a href="#myGallery" data-slide-to="0"><img class="img-thumbnail" src="https://www.bgetem.de/medien-service/medienankuendigungen/etem-ausgabe-6-erschienen-1/image"></a>
                   </li>
-		   <li class="col-lg-4 col-sm-4 col-xs-1 mini-img">
-                    <img class="img-thumbnail" src="https://www.bgetem.de/redaktion/medien-service/bilder/bg-etem-arbeit-gesundheit">
+		   <li data-toggle="modal" data-target="#myModal" class="col-lg-4 col-sm-4 col-xs-1 mini-img">
+                    <a href="#myGallery" data-slide-to="0"><img class="img-thumbnail" src="https://www.bgetem.de/redaktion/medien-service/bilder/bg-etem-arbeit-gesundheit"></a>
                   </li>
                 <!--end of thumbnails-->
             </ul>
@@ -180,6 +180,26 @@
                                         <p class="col-lg-3 col-sm-2 col-xs-3"><a href="#">Plakat</a></p>
                                         <p class="col-lg-9 col-sm-10 col-xs-9 mp-download-files" >jpeg./112.21kByte&nbsp;<a href="#"><span class="glyphicon glyphicon-save"></span></a></p>
                                     </div>
+				    <div class="col-lg-12 col-sm-12 col-xs-12">
+                                        <hr class="media-default">
+                                        <h4 class="mp-headline">Weitere Informationen</h4>
+                                        <div class="row mp-additional-info"><p>Inhalt:</p>
+						<ul>
+							<li>DVD-ROM Defensive Strategien für den Straßenverkehr (DVD 002)</li>
+							<li>Mir passiert schon nixx (DVD 008)</li>
+							<li>Postkarten: Ein Unfall ändert alles (PSTK-00/2014)</li>
+							<li>Azubi Broschüre: Der sichere Start ins Berufsleben - Elektrotechnik (AB 012)</li>
+							<li>Benutzen von Leitern (T 002)</li>
+							<li>Tipp: Hautschutz (T 006)</li>
+							<li>Tipp: Umgang mit elektrischen Anlagen und Betriebsmitteln (T 008)</li>
+							<li>Wichtig für Gabelstaplerfahrer (T 035)</li>
+							<li>Vorbeugender Brandschutz und Verhalten im Brandfall (T 011)</li>
+							<li>Tipp: Gehörschäden vorbeugen (T 014)</li>
+							<li>Führen von Kraftfahrzeugen (T 017)</li>
+							<li>Tipp: Hautschutz bei Tätigkeit im Freien (T 020)</li>
+						</ul>	
+					</div>
+				    </div>
 		</div>
 
 	</div>
