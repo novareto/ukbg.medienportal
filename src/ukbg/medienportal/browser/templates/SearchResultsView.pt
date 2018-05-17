@@ -90,7 +90,8 @@
                                         </div>
                                 </a>
                         </div>
-                        <div class="mp-price-table col-lg-3">
+                       
+			<div class="mp-price-table col-lg-3">
                                 <div class="list-group">
                                         <p class="list-group-item disabled">
                                         Versicherte Unternehmen<br class="mp-only-bigscreen">
