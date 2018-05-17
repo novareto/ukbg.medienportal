@@ -38,6 +38,9 @@
 	width: 90%;
 	margin-left:2px;
 }
+.dropdown-menu li a{
+	white-space: normal !important;
+}
 .mp-wrapper ul li{
 	margin-left:10px;
 	margin-right: 10px;
@@ -309,6 +312,9 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
 }
 #content-core > .mp-wrapper ul li{
 	padding-left: 0px;
+}
+#content-core > .mp-wrapper .mp-additional-info ul{
+	padding-left: 10px !important;
 }
 .modal-content{
 	width: ;
