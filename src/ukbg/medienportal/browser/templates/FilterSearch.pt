@@ -42,10 +42,82 @@
 			<span class="caret"></span>
 			<span class="sr-only">Toggle Dropdown</span>
 		</button>
-		<ul class="dropdown-menu">
-			<li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Photovoltaikanlagen und mehr</a></li>
-			<li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeitsmedizin</a></li>
-			<li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeitsmittel /Werkzeuge</a></li>
+		<ul class="dropdown-menu multi-column columns-4">
+		
+			<div class="row">
+				     <div class="col-sm-3">
+                                            <ul class="multi-column-dropdown">
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                     <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebärztinnen und Ärzte</a></li>
+                                                <ul>
+						    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeiten an elektrischen Anlagen</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Medizintechnik für Kleinbetriebe und Großbetriebe</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Umgang mit Patienten</a></li>
+                                                </ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebsärztliche und sicherheitstechnische Betreuung</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+						    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeiten an elektrischen Anlagen</a></li>
+						    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende und Angestellte</a></li>
+                                            </ul>
+                                    </div>
+			            <div class="col-sm-3">
+				            <ul class="multi-column-dropdown">
+						    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebärztinnen und Ärzte</a></li>
+						<ul>
+					            <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeiten an elektrischen Anlagen</a></li>
+						    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Medizintechnik für Kleinbetriebe und Großbetriebe</a></li>
+					            <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Umgang mit Patienten</a></li>
+						</ul>
+					            <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebsärztliche und sicherheitstechnische Betreuung</a></li>
+					            <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+					            <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+						    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Medien zu Elektrische Gefährdungen</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+						    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Umgang mit Patienten</a></li>
+				            </ul>
+			            </div>
+			            <div class="col-sm-3">
+				            <ul class="multi-column-dropdown">
+				            	    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                     <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebärztinnen und Ärzte</a></li>
+                                                <ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Medizintechnik für Kleinbetriebe und Großbetriebe</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Umgang mit Patienten</a></li>
+                                                </ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebsärztliche und sicherheitstechnische Betreuung</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+						    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+						    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeiten an elektrischen Anlagen</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende und Angestellte</a></li>
+					    </ul>
+			            </div>
+			            <div class="col-sm-3">
+			            	    <ul class="multi-column-dropdown">
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                     <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebärztinnen und Ärzte</a></li>
+                                                <ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Medizintechnik für Kleinbetriebe und Großbetriebe</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Umgang mit Patienten</a></li>
+                                                </ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebsärztliche und sicherheitstechnische Betreuung</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+						    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeiten an elektrischen Anlagen</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende und Angestellte</a></li>
+                                            </ul>
+				    </div>
+		            </div>	
+
 		</ul>
 	</div>
 
@@ -55,10 +127,61 @@
 			<span class="caret"></span>
 			<span class="sr-only">Toggle Dropdown</span>
 		</button>
-		<ul class="dropdown-menu">
-			<li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
-                        <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebärztinnen und Ärzte</a></li>
-                        <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebs-/Personalräte</a></li>
+		<ul class="dropdown-menu multi-column columns-3">
+		    <div class="row">
+                    		   <div class="col-sm-4">
+                                            <ul class="multi-column-dropdown">
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                     <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebärztinnen und Ärzte</a></li>
+                                                <ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeiten an elektrischen Anlagen</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Medizintechnik für Kleinbetriebe und Großbetriebe</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Umgang mit Patienten</a></li>
+                                                </ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebsärztliche und sicherheitstechnische Betreuung</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeiten an elektrischen Anlagen</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende und Angestellte</a></li>
+                                            </ul>
+                                    </div>
+                                    <div class="col-sm-4">
+                                            <ul class="multi-column-dropdown">
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebärztinnen und Ärzte</a></li>
+                                                <ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeiten an elektrischen Anlagen</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Medizintechnik für Kleinbetriebe und Großbetriebe</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Umgang mit Patienten</a></li>
+                                                </ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebsärztliche und sicherheitstechnische Betreuung</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Medien zu Elektrische Gefährdungen</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Umgang mit Patienten</a></li>
+                                            </ul>
+                                    </div>
+				    <div class="col-sm-4">
+                                            <ul class="multi-column-dropdown">
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebärztinnen und Ärzte</a></li>
+                                                <ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeiten an elektrischen Anlagen</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Medizintechnik für Kleinbetriebe und Großbetriebe</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Umgang mit Patienten</a></li>
+                                                </ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebsärztliche und sicherheitstechnische Betreuung</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Auszubildende</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Medien zu Elektrische Gefährdungen</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Umgang mit Patienten</a></li>
+                                            </ul>
+                                    </div>    
+		    </div>
 		</ul>
 	</div>
 	
@@ -68,10 +191,30 @@
 			<span class="caret"></span>
 			<span class="sr-only">Toggle Dropdown</span>
 		</button>
-		<ul class="dropdown-menu">
-			<li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Faltblätter</a></li>
-                        <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Broschüren</a></li>
-                        <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Multimedia</a></li>
+		<ul class="dropdown-menu multi-column columns-2">
+		    <div class="row">
+				   <div class="col-sm-6">
+                                            <ul class="multi-column-dropdown">
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebärztinnen und Ärzte</a></li>
+                                                <ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Umgang mit Patienten</a></li>
+                                                </ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Regelbetreuung für Betriebe mit mehr als 10 Beschäftigten</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Umgang mit Patienten</a></li>
+                                            </ul>
+                                    </div>
+				    <div class="col-sm-6">
+                                            <ul class="multi-column-dropdown">
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebärztinnen und Ärzte</a></li>
+                                                <ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Arbeiten an elektrischen Anlagen</a></li>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Medizintechnik für Kleinbetriebe und Großbetriebe</a></li>
+                                                </ul>
+                                                    <li><a class="small" href="#" data-value="option1" tabIndex="-1"><input type="checkbox"/>Betriebsärztliche und sicherheitstechnische Betreuung</a></li>
+                                            </ul>
+                                    </div>
+		    </div>
 		</ul>
 	</div>
 
