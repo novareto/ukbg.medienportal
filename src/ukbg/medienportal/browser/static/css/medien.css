@@ -262,6 +262,9 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
 .mp-delete{
 	color:#9c9c9c;
 }
+.mp-price-table .list-group-item.disabled{
+	cursor: unset; 
+}
 .mp-price-table-cart{
 	border-top: 2px solid #9c9c9c;
 	background-color: #fff;
