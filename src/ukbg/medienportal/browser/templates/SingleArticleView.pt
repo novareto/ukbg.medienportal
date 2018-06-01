@@ -118,7 +118,7 @@
                                                 <div class="mp-wrapper">
 							<div class="row mp-new-section">
 								<div class="panel-group" id="accordion">
-                                                                        <div class="panel panel-accordion">
+                                                                        <div class="panel">
                                                                                         <h4 class="panel-title-inverse">
                                                                                                 <a role="button" data-parent="#accordion" aria-expanded="false">Jetzt kaufen</a>
                                                                                         </h4>
@@ -142,7 +142,7 @@
                                                 <div class="mp-wrapper">
                                                         <div class="row mp-new-section">
                                                                 <div class="panel-group" id="accordion">
-                                                                        <div class="panel panel-accordion">
+                                                                        <div class="panel">
                                                                                         <h4 class="panel-title-inverse">
                                                                                                 <a role="button" data-parent="#accordion" aria-expanded="false">Downloadliste</a>
                                                                                         </h4>
