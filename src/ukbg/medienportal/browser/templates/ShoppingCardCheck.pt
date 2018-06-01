@@ -103,7 +103,7 @@
 		</div>
 		<div class="row mp-new-section col-sm-5">
                         <div class="panel-group" id="accordion">
-                                <div class="panel panel-accordion">
+                                <div class="panel">
                                         <div class="panel-heading-inverse">
                                                 <h4 class="panel-title-inverse">
                                                         <a role="button" data-parent="#accordion" aria-expanded="false">Mit der Bestellung fortfahren</a>
