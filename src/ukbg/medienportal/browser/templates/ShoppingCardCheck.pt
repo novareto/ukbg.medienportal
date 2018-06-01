@@ -102,15 +102,12 @@
                 	</aside>
 		</div>
 		<div class="row mp-new-section col-sm-5">
-                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel-group" id="accordion">
                                 <div class="panel panel-accordion">
-                                        <div class="panel-heading-inverse" role="tab" id="heading1">
-                                                <a name="section-1"></a>
+                                        <div class="panel-heading-inverse">
                                                 <h4 class="panel-title-inverse">
-                                                        <a role="button" data-parent="#accordion" href="#collapse1" aria-expanded="false" class="collapsed">Mit der Bestellung fortfahren</a>
+                                                        <a role="button" data-parent="#accordion" aria-expanded="false">Mit der Bestellung fortfahren</a>
                                                 </h4>
-                                        </div>
-                                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
                                         </div>
                                 </div>
                         </div>
