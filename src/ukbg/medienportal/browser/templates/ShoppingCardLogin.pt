@@ -49,7 +49,7 @@
 						  <div class="mp-wrapper mp-login">
                                                        <div class="row mp-new-section">
                                                                 <div class="panel-group" id="accordion">
-                                                                        <div class="panel panel-accordion">
+                                                                        <div class="panel">
                                                                                 <div class="panel-heading-inverse">
                                                                                         <h4 class="panel-title-inverse">
                                                                                                 <a role="button" data-parent="#accordion" href="#" aria-expanded="false">Einloggen</a>
@@ -89,7 +89,7 @@
                                                 	 <div class="mp-wrapper">
                                                         	<div class="row mp-new-section">
                                                                 	<div class="panel-group" id="accordion">
-                                                                        	<div class="panel panel-accordion">
+                                                                        	<div class="panel">
                                                                                 	<div class="panel-heading-inverse">
                                                                         	                <h4 class="panel-title-inverse">
                                                                 	                                <a role="button" data-parent="#accordion" href="#" aria-expanded="false">Registrieren</a>
@@ -98,7 +98,7 @@
                         	                                                </div>
                 	                                                </div>
         	                                                        <div class="panel-group" id="accordion">
-                                                                                <div class="panel panel-accordion">
+                                                                                <div class="panel">
                                                                                         <div class="panel-heading-inverse">
                                                                                                 <h4 class="panel-title-inverse">
                                                                                                         <a role="button" data-parent="#accordion" href="#" aria-expanded="false">Einmalig bestellen</a>
