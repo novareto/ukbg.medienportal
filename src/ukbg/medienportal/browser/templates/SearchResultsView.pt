@@ -42,8 +42,9 @@
 			<div class="mp-price-table col-lg-3">
 				<div class="list-group">
 					<p class="list-group-item disabled">
-					Nur durch Download möglich:<br class="mp-only-bigscreen">
-					Dieser Artikel ist nur durch Download erhältlich.
+						Nur durch Download möglich:
+						<br class="mp-only-bigscreen">
+						Dieser Artikel ist nur durch Download erhältlich.
 					</p>
 					<div class="list-group-item">
 						<div class="mp-wrapper">
