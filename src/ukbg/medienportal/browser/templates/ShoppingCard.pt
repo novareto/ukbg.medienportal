@@ -54,79 +54,84 @@
                                                           <span class="glyphicon glyphicon-minus"></span>
                                                       </button>
                                                   </span>
-                                                  <input type="text" name="quant[1]" id="qty" class="form-control input-number" value="1" min="1" max="99"><span class="input-group-btn">
+                                                  <input type="text" name="quant[1]" id="qty" class="form-control input-number" value="1" min="1" max="99">
+							<span class="input-group-btn">
 
-                <script type="text/javascript">
-                function modify_qty(val) {
-                var qty = document.getElementById('qty').value;
-                var new_qty1 = parseInt(qty,10) + val;
+                						<script type="text/javascript">
+                							function modify_qty(val) {
+                								var qty = document.getElementById('qty').value;
+                								var new_qty1 = parseInt(qty,10) + val;
 
-                if (new_qty < 0) {
-                new_qty = 0;
-                }
+                								if (new_qty < 0) {
+                									new_qty = 0;
+                								}
 
-                document.getElementById('qty').value = new_qty;
-                return new_qty;
-                }
-                </script><button type="button" id="up" onclick="modify_qty(1)" class="btn btn-number" data-type="plus" data-field="quant[1]">
-                                                          <span class="glyphicon glyphicon-plus"></span>
-                                                      </button>
-                                                  </span>
+                								document.getElementById('qty').value = new_qty;
+                								return new_qty;
+                							}
+                						</script>
+
+						      		<button type="button" id="up" onclick="modify_qty(1)" class="btn btn-number" data-type="plus" data-field="quant[1]">
+                                                          		<span class="glyphicon glyphicon-plus"></span>
+                                                      		</button>
+                                                       </span>
                                             </div>
                                         </div>
                                         <div class="price col-xs-6">
-                                            <p>0,00€ <em>Preis für versicherte Unternehmen</em></p>
-                                            <p>0,15€ <em>Preis für Nichtversicherte Unternehmen</em></p>
+                                        	<p>0,00€ <em>Preis für versicherte Unternehmen</em></p>
+                                            	<p>0,15€ <em>Preis für Nichtversicherte Unternehmen</em></p>
                                         </div>
-                                    </div>
+                                   </div>
                              </div>
                         </td>
-                        <td><input type="checkbox">Diesen Artikel auswählen.
-                            <div class="mp-new-section media col-lg-9">
-                                <a class="col-xs-12" href="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen" target="_blank">
-                                    <div class="artikel-bild col-xs-2 col-sm-3">
-                                        <img class="media-object img-responsive" src="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen/image">
-                                    </div>
-                                    <div class="col-sm-9 col-xs-10">
-                                        <p><b>Wenn Blicke töten können <br> Hände ans Steuer, Augen auf die Straße
-                                        </b></p>
-                                        <p>P001/2017</p>
-                                        <p class="mp-delete"><em>Artikel entfernen</em>&nbsp;<span class="glyphicon glyphicon-remove-sign"></span></p>
-                                    </div></a>
-                                    <div class="mp-new-section col-xs-12">
-                                        <div class="counter col-xs-6">
-                                            <div class="input-group">
-                                                  <span class="input-group-btn">
-                                                      <button type="button" id="down" onclick="modify_qty(-1)" class="btn btn-number" data-type="minus" data-field="quant[1]">
-                                                          <span class="glyphicon glyphicon-minus"></span>
-                                                      </button>
-                                                  </span>
-                                                  <input type="text" name="quant[1]" id="qty" class="form-control input-number" value="1" min="1" max="99"><span class="input-group-btn">
+                        <td>
+			     <input type="checkbox">Diesen Artikel auswählen.
+                            	   <div class="mp-new-section media col-lg-9">
+                                	<a class="col-xs-12" href="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen" target="_blank">
+                                    		<div class="artikel-bild col-xs-2 col-sm-3">
+                                        		<img class="media-object img-responsive" src="https://www.bgetem.de/medien-service/medienankuendigungen/arbeit-gesundheit-ausgabe-6-erschienen/image">
+                                    		</div>
+                                    		<div class="col-sm-9 col-xs-10">
+                                        		<p><b>Wenn Blicke töten können <br> Hände ans Steuer, Augen auf die Straße</b></p>
+                                        		<p>P001/2017</p>
+                                        		<p class="mp-delete"><em>Artikel entfernen</em>&nbsp;<span class="glyphicon glyphicon-remove-sign"></span></p>
+                                    		</div>
+					</a>
+                                    	<div class="mp-new-section col-xs-12">
+                                        	<div class="counter col-xs-6">
+                                            		<div class="input-group">
+                                                  		<span class="input-group-btn">
+                                                      			<button type="button" id="down" onclick="modify_qty(-1)" class="btn btn-number" data-type="minus" data-field="quant[1]">
+                                                          			<span class="glyphicon glyphicon-minus"></span>
+                                                      			</button>
+                                                  		</span>
+                                                  		<input type="text" name="quant[1]" id="qty" class="form-control input-number" value="1" min="1" max="99"><span class="input-group-btn">
 
-                <script type="text/javascript">
-                function modify_qty(val) {
-                var qty = document.getElementById('qty').value;
-                var new_qty1 = parseInt(qty,10) + val;
+                							<script type="text/javascript">
+                								function modify_qty(val) {
+                									var qty = document.getElementById('qty').value;
+                									var new_qty1 = parseInt(qty,10) + val;
 
-                if (new_qty < 0) {
-                new_qty = 0;
-                }
+                									if (new_qty < 0) {
+                										new_qty = 0;
+               										}
 
-                document.getElementById('qty').value = new_qty;
-                return new_qty;
-                }
-                </script><button type="button" id="up" onclick="modify_qty(1)" class="btn btn-number" data-type="plus" data-field="quant[1]">
-                                                          <span class="glyphicon glyphicon-plus"></span>
-                                                      </button>
-                                                  </span>
-                                            </div>
-                                        </div>
-                                        <div class="price col-xs-6">
-                                            <p>0,00€ <em>Preis für versicherte Unternehmen</em></p>
-                                            <p>0,15€ <em>Preis für Nichtversicherte Unternehmen</em></p>
-                                        </div>
-                                    </div>
-                             </div>
+                								document.getElementById('qty').value = new_qty;
+                								return new_qty;
+                								}
+                							</script>
+									<button type="button" id="up" onclick="modify_qty(1)" class="btn btn-number" data-type="plus" data-field="quant[1]">
+                                                          			<span class="glyphicon glyphicon-plus"></span>
+                                                      			</button>
+                                                  		</span>
+                                            		</div>
+                                        	</div>
+                                        	<div class="price col-xs-6">
+                                            		<p>0,00€ <em>Preis für versicherte Unternehmen</em></p>
+                                            		<p>0,15€ <em>Preis für Nichtversicherte Unternehmen</em></p>
+                                        	</div>
+                                    	</div>
+                             	   </div>
                         </td>
                     </tr>
                     <tr>
@@ -137,7 +142,7 @@
                     <tr>
                         <td>
                             <div class="media col-lg-9">
-                                <p class="total-price col-xs-4">Versandkosten:</p>
+                            	<p class="total-price col-xs-4">Versandkosten:</p>
                                 <p class="price text-right col-xs-4">0,00€</p>
                                 <p class="price text-right col-xs-4">4,30€</p>
                             </div>
@@ -171,8 +176,10 @@
                                        </thead>
                                        <tbody>
                                             <tr>
-                                                <td class="checkbox-cart"><input type="checkbox"></td>
-						 <td>
+                                                <td class="checkbox-cart">
+							<input type="checkbox">
+						</td>
+						<td>
                                                         <div class="media col-lg-9">
                                                             <a class="col-xs-12" href="#" target="_blank">
                                                                 <div class="artikel-bild col-xs-12 col-sm-3">
@@ -186,36 +193,36 @@
                                                                 </div>
                                                             </a>
                                                         </div>
-                                                 </td>
-						 <td class="counter col-sm-3 col-md-2">
-                                                  <div class="input-group">
-                                                      <span class="input-group-btn">
-                                                          <button type="button" id="down" onclick="modify_qty(-1)" class="btn btn-number" data-type="minus" data-field="quant[1]">
-                                                              <span class="glyphicon glyphicon-minus"></span>
-                                                          </button>
-                                                      </span>
-                                                      <input type="text" name="quant[1]" id="qty" class="form-control input-number" value="1" min="1" max="99">
-                                                      <span class="input-group-btn">
+                                                </td>
+						<td class="counter col-sm-3 col-md-2">
+                                                	<div class="input-group">
+                                                      		<span class="input-group-btn">
+                                                          		<button type="button" id="down" onclick="modify_qty(-1)" class="btn btn-number" data-type="minus" data-field="quant[1]">
+                                                              			<span class="glyphicon glyphicon-minus"></span>
+                                                          		</button>
+                                                      		</span>
+                                                      		<input type="text" name="quant[1]" id="qty" class="form-control input-number" value="1" min="1" max="99">
+                                                      			<span class="input-group-btn">
 
-<script type="text/javascript">
-        function modify_qty(val) {
-    var qty = document.getElementById('qty').value;
-    var new_qty = parseInt(qty,10) + val;
+										<script type="text/javascript">
+        										function modify_qty(val) {
+    												var qty = document.getElementById('qty').value;
+    												var new_qty = parseInt(qty,10) + val;
 
-    if (new_qty < 0) {
-        new_qty = 0;
-    }
+   						 						if (new_qty < 0) {
+        												new_qty = 0;
+    												}
 
-    document.getElementById('qty').value = new_qty;
-    return new_qty;
-}
-</script>
+    												document.getElementById('qty').value = new_qty;
+    												return new_qty;
+											}
+										</script>
 
-                                                          <button type="button" id="up" onclick="modify_qty(1)" class="btn btn-number" data-type="plus" data-field="quant[1]">
-                                                              <span class="glyphicon glyphicon-plus"></span>
-                                                          </button>
-                                                      </span>
-                                                  </div>
+                                                          			<button type="button" id="up" onclick="modify_qty(1)" class="btn btn-number" data-type="plus" data-field="quant[1]">
+                                                              				<span class="glyphicon glyphicon-plus"></span>
+                                                          			</button>
+                                                      			</span>
+                                                  	</div>
                                                 </td>
                                                 <td class="text-right">1,00€</td>
                                                 <td class="text-right">3,00€</td>
@@ -223,8 +230,10 @@
                                             </tr>
 						
 					     <tr>
-                                                <td class="checkbox-cart"><input type="checkbox"></td>
-                                                 <td>
+                                                <td class="checkbox-cart">
+							<input type="checkbox">
+						</td>
+                                                <td>
                                                         <div class="media col-lg-9">
                                                             <a class="col-xs-12" href="#" target="_blank">
                                                                 <div class="artikel-bild col-xs-12 col-sm-3">
@@ -238,79 +247,80 @@
                                                                 </div>
                                                             </a>
                                                         </div>
-                                                 </td>
-                                                 <td class="counter col-sm-3 col-md-2">
-                                                  <div class="input-group">
-                                                      <span class="input-group-btn">
-                                                          <button type="button" id="down" onclick="modify_qty(-1)" class="btn btn-number" data-type="minus" data-field="quant[1]">
-                                                              <span class="glyphicon glyphicon-minus"></span>
-                                                          </button>
-                                                      </span>
-                                                      <input type="text" name="quant[1]" id="qty" class="form-control input-number" value="1" min="1" max="99">
-                                                      <span class="input-group-btn">
+                                                </td>
+                                                <td class="counter col-sm-3 col-md-2">
+                                                	<div class="input-group">
+                                                      		<span class="input-group-btn">
+                                                          		<button type="button" id="down" onclick="modify_qty(-1)" class="btn btn-number" data-type="minus" data-field="quant[1]">
+                                                              			<span class="glyphicon glyphicon-minus"></span>
+                                                          		</button>
+                                                      		</span>
+                                                      		<input type="text" name="quant[1]" id="qty" class="form-control input-number" value="1" min="1" max="99">
+                                                      			<span class="input-group-btn">
 
-<script type="text/javascript">
-        function modify_qty(val) {
-    var qty = document.getElementById('qty').value;
-    var new_qty = parseInt(qty,10) + val;
+										<script type="text/javascript">
+        										function modify_qty(val) {
+    												var qty = document.getElementById('qty').value;
+    												var new_qty = parseInt(qty,10) + val;
 
-    if (new_qty < 0) {
-        new_qty = 0;
-    }
+    												if (new_qty < 0) {
+        												new_qty = 0;
+    												}
 
-    document.getElementById('qty').value = new_qty;
-    return new_qty;
-}
-</script>
+    												document.getElementById('qty').value = new_qty;
+    												return new_qty;
+											}
+										</script>
 
-                                                          <button type="button" id="up" onclick="modify_qty(1)" class="btn btn-number" data-type="plus" data-field="quant[1]">
-                                                              <span class="glyphicon glyphicon-plus"></span>
-                                                          </button>
-                                                      </span>
-                                                  </div>
+                                                          			<button type="button" id="up" onclick="modify_qty(1)" class="btn btn-number" data-type="plus" data-field="quant[1]">
+                                                              				<span class="glyphicon glyphicon-plus"></span>
+                                                          			</button>
+                                                      			</span>
+                                                  	</div>
                                                 </td>
                                                 <td class="text-right">1,00€</td>
                                                 <td class="text-right">3,00€</td>
-
                                             </tr>
-                                                <tr>
-                                                    <td><input type="checkbox"></td>
-                                                    <td class="mp-checkbox-cart">Alle Artikel auswählen</td>
-                                                    <td class="col-sm-2">Versandkosten:</td>
-                                                    <td class="col-sm-2 text-right">kostenlos</td>
-                                                    <td class="text-right">4,10€</td>
-                                                </tr>
-						<tr>
-                                                    <td class="checkbox-warenkorb"></td>
-                                                    <td>
-                                                        <button type="submit" class="btn mp-btn-default">Warenkorb aktualisieren</button>
+                                            <tr>
+                                                <td>
+							<input type="checkbox">
+						</td>
+                                                <td class="mp-checkbox-cart">Alle Artikel auswählen</td>
+                                                <td class="col-sm-2">Versandkosten:</td>
+                                                <td class="col-sm-2 text-right">kostenlos</td>
+                                                <td class="text-right">4,10€</td>
+                                            </tr>
+					    <tr>
+                                            	<td class="checkbox-warenkorb"></td>
+                                                <td>
+                                                	<button type="submit" class="btn mp-btn-default">Warenkorb aktualisieren</button>
                                                         <button type="submit" class="btn mp-btn-default">Löschen</button>
-                                                    </td>
-                                                    <td><b>Summe:</b></td>
-                                                    <td class="text-right"><b>1,00€</b></td>
-                                                    <td class="text-right"><b>7,25€</b></td>
-                                                </tr>
-                                            </tbody>
-                                    </table>
+                                                </td>
+                                                <td><b>Summe:</b></td>
+                                                <td class="text-right"><b>1,00€</b></td>
+                                                <td class="text-right"><b>7,25€</b></td>
+                                            </tr>
+                                     </tbody>
+                        </table>
                 </div>
 		<div class="row mp-new-section col-sm-5 col-sm-offset-7 col-xs-12">
                 	<div class="panel-group" id="accordion">
-                                <div class="panel">
-                                	<div class="panel-heading-inverse">
-                                                <h4 class="panel-title-inverse">
-                                                       	<a role="button" data-parent="#accordion" aria-expanded="false">Mit der Bestellung fortfahren</a>
-                                                </h4>
-                                        </div>
-                        	</div>
+                                      <div class="panel">
+                                		<div class="panel-heading-inverse">
+                                                	<h4 class="panel-title-inverse">
+                                                       		<a role="button" data-parent="#accordion" aria-expanded="false">Mit der Bestellung fortfahren</a>
+                                                	</h4>
+                                       		</div>
+                        	      </div>
                 	</div>		
                         <div class="panel-group" id="accordion">
-                                <div class="panel">
-                                        <div class="panel-heading-inverse">
-                                                <h4 class="panel-title-inverse">
-                                                        <a role="button" data-parent="#accordion" aria-expanded="false">Weitere Artikel auswählen</a>
-                                                </h4>
-                                        </div>
-                                </div>
+                                      <div class="panel">
+                                      		<div class="panel-heading-inverse">
+                                                	<h4 class="panel-title-inverse">
+                                                        	<a role="button" data-parent="#accordion" aria-expanded="false">Weitere Artikel auswählen</a>
+                                                	</h4>
+                                        	</div>
+                                      </div>
                         </div>
 
                 </div>
