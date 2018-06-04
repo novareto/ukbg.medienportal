@@ -22,102 +22,102 @@
 
   <metal:block fill-slot="content-core">
 	<div class="mp-wrapper">
-			<div class="portlet-column">
-		<div class="col-sm-6">
-                                <div class="portlet portletStaticText portlet-static-videos-alles-aus-einer-hand">
+		<div class="portlet-column">
+			<div class="col-sm-6">
+                        	<div class="portlet portletStaticText portlet-static-videos-alles-aus-einer-hand">
 
-                                       <h4 class="portletHeader">
-                                           <span class="portletTopLeft"></span>
-                                           <span>
-                                              Einloggen
-                                           </span>
-                                           <span class="portletTopRight"></span>
-                                       </h4>
+                                	<h4 class="portletHeader">
+                                        	<span class="portletTopLeft"></span>
+                                           	<span>
+                                              		Einloggen
+                                           	</span>
+                                           	<span class="portletTopRight"></span>
+                                       	</h4>
 
-                                       <div class="list-group portletItem odd">
-                                           <p><a href="#" target="_self" title=""></a></p>
-                                           <p>Bitte geben Sie Ihre E-Mail Adresse und Ihr Passwort an, um mit der Bestellung fortzufahren.</p>
-                                            <form>
-                                                  <p class="form-group">
-                                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-Mail">
-                                                    <label for="exampleInputEmail1"><em>*E-Mail Addresse</em></label>
-                                                  </p>
-                                                  <p class="form-group">
-                                                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Passwort">
-                                                    <label for="exampleInputEmail1"><em>*Passwort</em></label>
-                                                  </p>
-						  <div class="mp-wrapper mp-login">
-                                                       <div class="row mp-new-section">
-                                                                <div class="panel-group" id="accordion">
-                                                                        <div class="panel">
-                                                                                <div class="panel-heading-inverse">
-                                                                                        <h4 class="panel-title-inverse">
-                                                                                                <a role="button" data-parent="#accordion" href="#" aria-expanded="false">Einloggen</a>
-                                                                                        </h4>
-                                                                                </div>
-                                                                                
-                                                                        </div>
-                                                                </div>
-                                                        </div>
-                                                </div>
-                                           </form>
-
-                                               <span class="portletBottomLeft"></span>
-                                               <span class="portletBottomRight"></span>
-                                       </div>
-                        	</div>
-                        	</div>
-
-				<!--second portlet -->
-		<div class="col-sm-6">
-			        <div class="portlet portletStaticText portlet-static-videos-alles-aus-einer-hand">
-
-                                       <h4 class="portletHeader">
-                                           <span class="portletTopLeft"></span>
-                                           <span>
-                                              Registrieren
-                                           </span>
-                                           <span class="portletTopRight"></span>
-                                       </h4>
-
-                                       <div class="list-group portletItem odd">
-                                           <p><a href="#" target="_self" title=""></a></p>
-                                           <p>Registrieren Sie sich jetzt bei der BGETEM und bestellen Sie auch in Zukunft schnell und einfach Produkte aus unserem Medienshop.<br>
-                                           Sie möchten nur eine einmalige Bestellung tätigen? Kein Problem, Sie können auch ohne ein Benutzerkonto zu erstellen bequem in unserem Medienshop einkaufen.</p>
-                                           <form>
-                                                <div class="form-group mp-login">
-                                                	 <div class="mp-wrapper">
-                                                        	<div class="row mp-new-section">
+                                       	<div class="list-group portletItem odd">
+                                        	<p><a href="#" target="_self" title=""></a></p>
+                                           	<p>Bitte geben Sie Ihre E-Mail Adresse und Ihr Passwort an, um mit der Bestellung fortzufahren.</p>
+                                            	<form>
+                                                	<p class="form-group">
+                                                    		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-Mail">
+                                                    		<label for="exampleInputEmail1"><em>*E-Mail Addresse</em></label>
+                                                  	</p>
+                                                  	<p class="form-group">
+                                                    		<input type="email" class="form-control" id="exampleInputPassword1" placeholder="Passwort">
+                                                    		<label for="exampleInputEmail1"><em>*Passwort</em></label>
+                                                  	</p>
+						  	<div class="mp-wrapper mp-login">
+                                                       		<div class="row mp-new-section">
                                                                 	<div class="panel-group" id="accordion">
                                                                         	<div class="panel">
                                                                                 	<div class="panel-heading-inverse">
-                                                                        	                <h4 class="panel-title-inverse">
-                                                                	                                <a role="button" data-parent="#accordion" href="#" aria-expanded="false">Registrieren</a>
-                                                        	                                </h4>
-                                                	                                </div>
-                        	                                                </div>
-                	                                                </div>
-        	                                                        <div class="panel-group" id="accordion">
-                                                                                <div class="panel">
-                                                                                        <div class="panel-heading-inverse">
-                                                                                                <h4 class="panel-title-inverse">
-                                                                                                        <a role="button" data-parent="#accordion" href="#" aria-expanded="false">Einmalig bestellen</a>
-                                                                                                </h4>
-                                                                                        </div>
-                                                                                </div>
-                                                                        </div>
-								</div>
-	                                                </div>
-
-						</div>
-                                           </form>
+                                                                                        	<h4 class="panel-title-inverse">
+                                                                                                	<a role="button" data-parent="#accordion" href="#" aria-expanded="false">Einloggen</a>
+                                                                                        	</h4>
+                                                                                	</div>
+                                                                                
+                                                                        	</div>
+                                                                	</div>
+                                                        	</div>
+                                                	</div>
+                                           	</form>
 
                                                <span class="portletBottomLeft"></span>
                                                <span class="portletBottomRight"></span>
                                        </div>
                         	</div>
+                        </div>
+
+			<!--second portlet -->
+			<div class="col-sm-6">
+				<div class="portlet portletStaticText portlet-static-videos-alles-aus-einer-hand">
+
+                                	<h4 class="portletHeader">
+                                        	<span class="portletTopLeft"></span>
+                                           	<span>
+                                              		Registrieren
+                                           	</span>
+                                           	<span class="portletTopRight"></span>
+                                       	</h4>
+
+                                       	<div class="list-group portletItem odd">
+                                        	<p><a href="#" target="_self" title=""></a></p>
+                                           	<p>Registrieren Sie sich jetzt bei der BGETEM und bestellen Sie auch in Zukunft schnell und einfach Produkte aus unserem Medienshop.<br>
+                                           	   Sie möchten nur eine einmalige Bestellung tätigen? Kein Problem, Sie können auch ohne ein Benutzerkonto zu erstellen bequem in unserem Medienshop einkaufen.</p>
+                                           	<form>
+                                                	<div class="form-group mp-login">
+                                                		<div class="mp-wrapper">
+                                                        		<div class="row mp-new-section">
+                                                                		<div class="panel-group" id="accordion">
+                                                                        		<div class="panel">
+                                                                                		<div class="panel-heading-inverse">
+                                                                        	                	<h4 class="panel-title-inverse">
+                                                                	                                	<a role="button" data-parent="#accordion" href="#" aria-expanded="false">Registrieren</a>
+                                                        	                                	</h4>
+                                                	                                	</div>
+                        	                                                	</div>
+                	                                                	</div>
+        	                                                        	<div class="panel-group" id="accordion">
+                                                                                	<div class="panel">
+                                                                                        	<div class="panel-heading-inverse">
+                                                                                                	<h4 class="panel-title-inverse">
+                                                                                                        	<a role="button" data-parent="#accordion" href="#" aria-expanded="false">Einmalig bestellen</a>
+                                                                                                	</h4>
+                                                                                        	</div>
+                                                                                	</div>
+                                                                        	</div>
+									</div>
+	                                                	</div>
+
+							</div>
+                                           	</form>
+
+                                               	<span class="portletBottomLeft"></span>
+                                               	<span class="portletBottomRight"></span>
+                                       	</div>
                         	</div>
-                	</div>
+                        </div>
+                </div>
 	</div>    
   </metal:block>
 
