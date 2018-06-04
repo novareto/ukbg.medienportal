@@ -29,8 +29,10 @@
 		</div>
 		<div class="row mp-new-section">
 			<p>Wir werden Ihren Auftrag schnellstmöglich bearbeiten.<br>
-			In Kürze erhalten Sie eine Bestellbestätigung per E-Mail, der Sie die Auftragsnummer und weitere wichtige Informationen entnehmen können.</p>
+			   In Kürze erhalten Sie eine Bestellbestätigung per E-Mail, der Sie die Auftragsnummer und weitere wichtige Informationen entnehmen können.
+			</p>
 			<p>Bei Fragen können Sie uns kontaktieren unter: <a href="mailto:info@bgetem.de">info@bgetem.de</a>
+			</p>
 		</div>
 	</div>    
   </metal:block>
