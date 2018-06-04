@@ -24,35 +24,35 @@
 	<div class="mp-wrapper">
 		<div class="col-md-12 col-sm-12 col-xs-12 timeline">
                         <section class="main-timeline-section">
-                                            <div class="conference-center-line"></div>
-                                            <div class="conference-timeline-content">
-                                                <div class="timeline-article timeline-article-bottom">
-                                                    <div class="content-date">
-                                                        <span>Warenkorb</span>
-                                                    </div>
-                                                    <div class="meta-date"></div>
+                        	<div class="conference-center-line"></div>
+                                <div class="conference-timeline-content">
+                                	<div class="timeline-article timeline-article-bottom">
+                                        	<div class="content-date">
+                                                	<span>Warenkorb</span>
                                                 </div>
+                                                <div class="meta-date"></div>
+                                        </div>
 
-                                                <div class="timeline-article timeline-article-bottom">
-                                                    <div class="content-date">
-                                                        <span>Registrieren</span>
-                                                    </div>
-                                                    <div class="meta-date"></div>
+                                        <div class="timeline-article timeline-article-bottom">
+                                        	<div class="content-date">
+                                                	<span>Registrieren</span>
                                                 </div>
-                                                 <div class="timeline-article timeline-article-bottom">
-                                                    <div class="content-date">
-                                                        <span>Kontaktdaten</span>
-                                                    </div>
-                                                    <div class="meta-date"></div>
+                                                <div class="meta-date"></div>
+                                        </div>
+                                        <div class="timeline-article timeline-article-bottom">
+                                        	<div class="content-date">
+                                                	<span>Kontaktdaten</span>
                                                 </div>
+                                                <div class="meta-date"></div>
+                                        </div>
 
-                                                <div class="timeline-article timeline-article-bottom">
-                                                    <div class="content-date">
-                                                        <span>Bestellen</span>
-                                                    </div>
-                                                    <div class="meta-date aktiv"></div>
-                                                </div> 
-                                            </div>
+                                        <div class="timeline-article timeline-article-bottom">
+                                        	<div class="content-date">
+                                                	<span>Bestellen</span>
+                                                </div>
+                                                <div class="meta-date aktiv"></div>
+                                        </div> 
+                                </div>
                  	</section>
        		 </div>
 	</div>
