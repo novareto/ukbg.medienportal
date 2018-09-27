@@ -466,3 +466,7 @@ a.newsItem:hover, .media:hover, .portletEventsPortlet ul:hover{
    	float: none;
      }
 }
+
+.mp-product-name {
+    font-family: DGUVMetaWeb-Bold;
+}
